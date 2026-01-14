@@ -44,7 +44,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/features" element={<Features />} />
           <Route path="/about" element={<About />} />
-        </Route>
+        </Route>                 
 
         {/* WITHOUT Navbar */}
         <Route element={<NoNavbarLayout />}>
@@ -54,7 +54,7 @@ const App = () => {
         </Route>
 
       </Routes>
-    </div>
+    </div>                      
   );
 };
 
