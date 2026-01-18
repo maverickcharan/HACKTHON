@@ -1,5 +1,5 @@
 import React from 'react';
-import { Compass, Heart, Github, Twitter, Mail } from 'lucide-react';
+import { Compass, Heart, Github, Twitter, Mail, Zap } from 'lucide-react';
 
 export function Footer() {
     return (
@@ -9,13 +9,13 @@ export function Footer() {
                     {/* Brand */}
                     <div className="space-y-4">
                         <div className="flex items-center space-x-2">
-                            <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-2 rounded-xl">
-                                <Compass className="w-6 h-6 text-white" />
+                            <div className="bg-gradient-to-br from-blue-400 to-purple-500 p-2 rounded-xl">
+                                <Zap className="w-6 h-6 text-white" />
                             </div>
-                            <span className="text-2xl font-bold text-white">Zesty</span>
+                            <span className="text-2xl font-bold text-white">MoodMitra</span>
                         </div>
                         <p className="text-white/60 text-sm">
-                            The Unrecommendation Engine. Expand your cultural horizons through carefully curated discomfort.
+                            Personalized mood-based recommendations. Explore movies, music, web series, books, and anime that match your vibe today.
                         </p>
                     </div>
 
@@ -30,7 +30,7 @@ export function Footer() {
                                 How it Works
                             </a>
                             <a href="#" className="block text-white/60 hover:text-white transition-colors text-sm">
-                                Pricing
+                                Recommendations
                             </a>
                             <a href="#" className="block text-white/60 hover:text-white transition-colors text-sm">
                                 API
@@ -64,18 +64,21 @@ export function Footer() {
                             <a
                                 href="#"
                                 className="p-2 bg-white/5 hover:bg-white/10 rounded-xl transition-colors"
+                                title="Twitter"
                             >
                                 <Twitter className="w-5 h-5 text-white/60 hover:text-white" />
                             </a>
                             <a
                                 href="#"
                                 className="p-2 bg-white/5 hover:bg-white/10 rounded-xl transition-colors"
+                                title="GitHub"
                             >
                                 <Github className="w-5 h-5 text-white/60 hover:text-white" />
                             </a>
                             <a
                                 href="#"
                                 className="p-2 bg-white/5 hover:bg-white/10 rounded-xl transition-colors"
+                                title="Email"
                             >
                                 <Mail className="w-5 h-5 text-white/60 hover:text-white" />
                             </a>
@@ -86,12 +89,12 @@ export function Footer() {
                 {/* Bottom */}
                 <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between">
                     <p className="text-white/60 text-sm">
-                        © 2025 Zesty. All rights reserved.
+                        © 2026 MoodMitra. All rights reserved.
                     </p>
                     <div className="flex items-center space-x-1 mt-4 md:mt-0">
                         <span className="text-white/60 text-sm">Made with</span>
                         <Heart className="w-4 h-4 text-red-400" />
-                        <span className="text-white/60 text-sm">for cultural explorers</span>
+                        <span className="text-white/60 text-sm">for mood explorers</span>
                     </div>
                 </div>
             </div>

@@ -91,7 +91,9 @@ export default function Mode() {
                     </button>
                 </div>
 
-            </div>
+            </div>    
+
+
         </div>
     );
 }

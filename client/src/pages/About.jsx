@@ -1,32 +1,32 @@
 import React from 'react';
-import { Compass, Sparkles, Brain, Target, TrendingUp, Film, Music, ChefHat, BookOpen, Shirt, Globe, Zap, Heart, Eye, Palette, Coffee, Users, Award } from 'lucide-react';
+import { Compass, Sparkles, Brain, Target, TrendingUp, Film, Music, BookOpen, Users, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const culturalDomains = [
-    { icon: Film, name: 'Cinema', color: 'text-red-400', description: 'From blockbusters to art house' },
-    { icon: Music, name: 'Music', color: 'text-purple-400', description: 'Explore global soundscapes' },
-    { icon: ChefHat, name: 'Cuisine', color: 'text-orange-400', description: 'Taste the world\'s flavors' },
-    { icon: BookOpen, name: 'Literature', color: 'text-green-400', description: 'Stories across cultures' },
-    { icon: Shirt, name: 'Fashion', color: 'text-pink-400', description: 'Style beyond borders' },
+    { icon: Film, name: 'Movies & Web Series', color: 'text-red-400', description: 'Stories that inspire, motivate, and reflect life' },
+    { icon: Music, name: 'Music', color: 'text-purple-400', description: 'Songs that match your mood and uplift your spirit' },
+    { icon: BookOpen, name: 'Books', color: 'text-green-400', description: 'Books that expand insight, perspective, and creativity' },
+    { icon: Globe, name: 'Anime & Podcasts', color: 'text-orange-400', description: 'Voices, animations, and shows that guide and entertain' },
+    { icon: Users, name: 'Mood-Based Recommendations', color: 'text-pink-400', description: 'AI understands your mood to guide your journey' },
 ];
 
 const features = [
     {
         icon: Brain,
-        title: 'AI-Powered Taste Analysis',
-        description: 'Our advanced AI understands your cultural preferences and creates personalized journeys that gradually expand your horizons.',
+        title: 'AI-Powered Mood Analysis',
+        description: 'Our AI detects your current mood and suggests movies, music, books, and more tailored to inspire, entertain, and guide you.',
         gradient: 'from-blue-500 to-purple-500'
     },
     {
         icon: Target,
-        title: 'Discomfort-Based Challenges',
-        description: 'Carefully curated recommendations that push your boundaries while remaining accessible and culturally enriching.',
+        title: 'Personalized Recommendations',
+        description: 'Whether you want motivation, relaxation, fun, or insight, the platform curates content to match your emotional needs.',
         gradient: 'from-purple-500 to-pink-500'
     },
     {
         icon: TrendingUp,
-        title: 'Cultural Growth Tracking',
-        description: 'Monitor your cultural expansion with detailed analytics, progress insights, and personalized feedback on your evolving taste.',
+        title: 'Growth & Reflection',
+        description: 'Track how your choices shape your mood, learn from stories, and expand your emotional and cultural awareness.',
         gradient: 'from-pink-500 to-orange-500'
     }
 ];
@@ -36,22 +36,25 @@ export default function About() {
         <div className="relative overflow-hidden">
             {/* Subtle Grid Background */}
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#1f2937_1px,transparent_1px),linear-gradient(to_bottom,#1f2937_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-5 pointer-events-none"></div>
+
+            {/* Hero About Section */}
             <section className="relative min-h-[60vh] flex items-center justify-center px-4 pt-24 pb-12">
                 <div className="max-w-4xl mx-auto text-center space-y-8">
                     <div className="inline-flex items-center space-x-2 bg-white/5 backdrop-blur-xl border border-white/10 rounded-full px-6 py-3">
                         <Compass className="w-5 h-5 text-purple-400" />
-                        <span className="text-white/80 text-sm">About Zesty</span>
+                        <span className="text-white/80 text-sm">About MoodMitra</span>
                     </div>
                     <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-                        The Unrecommendation Engine
+                        See Life Differently Through Mood-Based Stories
                     </h1>
                     <p className="text-xl text-white/70 max-w-2xl mx-auto leading-relaxed">
-                        Zesty is your AI-powered guide to breaking out of your cultural comfort zone. We challenge your taste across movies, music, food, books, and fashion—expanding your horizons through carefully curated discomfort.
+                        MoodMitra is your AI-powered companion that understands how you feel and recommends movies, music, web series, books, and more.
+                        Whether you want motivation, laughter, reflection, or insight, every suggestion is carefully curated to expand your perspective and guide your journey.
                     </p>
                 </div>
             </section>
 
-            {/* Mission & Features Section (Unified) */}
+            {/* Mission & Features Section */}
             <section className="py-20 px-4">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     {/* Mission Block */}
@@ -63,32 +66,28 @@ export default function About() {
                     >
                         <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Mission</h2>
                         <p className="text-xl text-white/70 mb-8 leading-relaxed">
-                            Like a wise grandmother who makes you try bitter gourd for your health, Zesty believes true growth comes from stepping outside your comfort zone. Our mission is to help you discover new dimensions of taste, creativity, and human expression—one challenge at a time.
+                            We help users explore content that aligns with their current mood while encouraging growth and self-reflection. Movies, music, books, anime, podcasts — every recommendation is designed to teach, inspire, and transform.
                         </p>
                         <ul className="space-y-4 mb-8">
                             <li className="flex items-start space-x-4">
                                 <span className="bg-blue-500/20 p-3 rounded-xl flex-shrink-0"><Brain className="w-6 h-6 text-blue-400" /></span>
-                                <span className="text-white/60 text-base">Personalized, AI-driven taste analysis</span>
+                                <span className="text-white/60 text-base">AI detects your current mood</span>
                             </li>
                             <li className="flex items-start space-x-4">
                                 <span className="bg-purple-500/20 p-3 rounded-xl flex-shrink-0"><Target className="w-6 h-6 text-purple-400" /></span>
-                                <span className="text-white/60 text-base">Discomfort-based recommendations</span>
+                                <span className="text-white/60 text-base">Personalized content recommendations</span>
                             </li>
                             <li className="flex items-start space-x-4">
                                 <span className="bg-pink-500/20 p-3 rounded-xl flex-shrink-0"><TrendingUp className="w-6 h-6 text-pink-400" /></span>
-                                <span className="text-white/60 text-base">Progress tracking and analytics</span>
-                            </li>
-                            <li className="flex items-start space-x-4">
-                                <span className="bg-orange-500/20 p-3 rounded-xl flex-shrink-0"><Globe className="w-6 h-6 text-orange-400" /></span>
-                                <span className="text-white/60 text-base">Global cultural domains</span>
+                                <span className="text-white/60 text-base">Track emotional and cultural growth</span>
                             </li>
                         </ul>
                         <div className="flex flex-col items-start space-y-4">
                             <div className="flex items-center space-x-3">
                                 <Sparkles className="w-8 h-8 text-blue-400" />
-                                <span className="text-white/80 text-lg">Expand your taste. Embrace discomfort.</span>
+                                <span className="text-white/80 text-lg">Expand your mood. Discover your world.</span>
                             </div>
-                            <div className="text-white/60 text-base">Become a true cultural explorer.</div>
+                            <div className="text-white/60 text-base">Learn, reflect, and grow every day.</div>
                         </div>
                     </motion.div>
 
@@ -131,7 +130,7 @@ export default function About() {
             {/* Domains Section */}
             <section className="py-20 px-4">
                 <div className="max-w-6xl mx-auto">
-                    <h2 className="text-4xl font-bold text-white text-center mb-12">Cultural Domains</h2>
+                    <h2 className="text-4xl font-bold text-white text-center mb-12">Content Domains</h2>
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
                         {culturalDomains.map((domain) => {
                             const Icon = domain.icon;
@@ -148,44 +147,6 @@ export default function About() {
                     </div>
                 </div>
             </section>
-
-            {/* Stats Section */}
-            <section className="py-20 px-4">
-                <div className="max-w-6xl mx-auto">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-                        <div>
-                            <div className="text-4xl font-bold text-white mb-2">15k+</div>
-                            <div className="text-white/60">Cultural Explorers</div>
-                            <div className="text-white/40 text-sm mt-1">Active monthly users</div>
-                        </div>
-                        <div>
-                            <div className="text-4xl font-bold text-white mb-2">89%</div>
-                            <div className="text-white/60">Taste Expansion</div>
-                            <div className="text-white/40 text-sm mt-1">Average growth rate</div>
-                        </div>
-                        <div>
-                            <div className="text-4xl font-bold text-white mb-2">50+</div>
-                            <div className="text-white/60">Countries & Cultures</div>
-                            <div className="text-white/40 text-sm mt-1">Represented in our database</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Call to Action */}
-            <section className="py-20 px-4">
-                <div className="max-w-4xl mx-auto text-center space-y-8">
-                    <h2 className="text-4xl md:text-5xl font-bold text-white">
-                        Ready to Challenge
-                        <span className="block bg-gradient-to-r from-blue-400 to-pink-400 bg-clip-text text-transparent">
-                            Your Cultural Boundaries?
-                        </span>
-                    </h2>
-                    <p className="text-xl text-white/60 max-w-2xl mx-auto">
-                        Join thousands of cultural explorers discovering new dimensions of taste, creativity, and human expression.
-                    </p>
-                </div>
-            </section>
         </div>
     );
-} 
+}

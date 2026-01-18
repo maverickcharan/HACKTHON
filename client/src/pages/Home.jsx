@@ -1,89 +1,69 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import {
-
-    Brain,
-    Target,
-    Sparkles,
-    ArrowRight,
-    Play,
-
-    TrendingUp,
-
-    Music,
-    Film,
-    ChefHat,
-    BookOpen,
-    Shirt,
-
-    Zap,
-
-    Eye
-
-
-} from 'lucide-react';
+import { useContext } from 'react';
+import { ShopContext } from '../context/shopcontext';
+import { Music, Tv, BookOpen, Star, Cpu, Compass, TrendingUp, MoveIcon, Sparkles, ArrowRight, Play, Eye, Zap, Navigation, Activity, Music2, Book, Library, Move3D, MoveDiagonal, Film, Clapperboard, BarChart3, ScanEye, Brain, Sparkle, BrainCircuit } from 'lucide-react';  // slightly different icons
 
 export default function Home() {
     const culturalDomains = [
         {
-            icon: Film,
-            name: 'Cinema',
+            icon: Clapperboard,  // was Film
+            name: 'Movies',
             color: 'text-red-400',
-            description: 'From blockbusters to art house',
-            examples: ['Marvel', 'Bollywood', 'Korean Cinema', 'Art Films']
+            description: 'Handpicked movies that match your mood and inspire new perspectives.',
+            examples: ['Inception', 'Forrest Gump', '3 Idiots', 'Soul']
         },
         {
-            icon: Music,
+            icon: Music2,  // same as before, intuitive for music
             name: 'Music',
             color: 'text-purple-400',
-            description: 'Explore global soundscapes',
-            examples: ['Pop', 'Classical', 'World Music', 'Experimental']
+            description: 'Songs and playlists tailored to lift your spirits and match your emotions.',
+            examples: ['Classical', 'Pop', 'Lo-fi', 'World Music']
         },
         {
-            icon: ChefHat,
-            name: 'Cuisine',
-            color: 'text-orange-400',
-            description: 'Taste the world\'s flavors',
-            examples: ['Street Food', 'Fine Dining', 'Traditional', 'Fusion']
+            icon: Tv,  // was Play, now Tv icon for web series
+            name: 'Web Series',
+            color: 'text-blue-400',
+            description: 'Series recommendations to keep you engaged while exploring different themes.',
+            examples: ['Stranger Things', 'Money Heist', 'Dark', 'Lust Stories']
         },
         {
-            icon: BookOpen,
-            name: 'Literature',
+            icon: BookOpen,  // same, represents books
+            name: 'Books',
             color: 'text-green-400',
-            description: 'Stories across cultures',
-            examples: ['Fiction', 'Poetry', 'Philosophy', 'Memoirs']
+            description: 'Books and stories selected to match your mindset and expand your thinking.',
+            examples: ['The Alchemist', 'Atomic Habits', 'Sapiens', 'Rich Dad Poor Dad']
         },
         {
-            icon: Shirt,
-            name: 'Fashion',
+            icon: Star,  // was Zap, now Star for anime (fun, inspiring)
+            name: 'Anime',
             color: 'text-pink-400',
-            description: 'Style beyond borders',
-            examples: ['Streetwear', 'Traditional', 'Avant-garde', 'Sustainable']
+            description: 'Anime series that inspire, entertain, and align with your current mood.',
+            examples: ['Your Name', 'Attack on Titan', 'One Piece', 'Demon Slayer']
         }
     ];
 
     const features = [
         {
-            icon: Brain,
-            title: 'AI-Powered Taste Analysis',
-            description: 'Our advanced AI understands your cultural preferences and creates personalized journeys that gradually expand your horizons.',
+            icon: Cpu,  // was Brain, now Cpu for AI intelligence
+            title: 'AI Mood Detection',
+            description: 'Our smart AI understands your current mood and suggests movies, music, books, web series, and anime that match your emotions, creating a personalized experience.',
             gradient: 'from-blue-500 to-purple-500'
         },
         {
-            icon: Target,
-            title: 'Discomfort-Based Challenges',
-            description: 'Carefully curated recommendations that push your boundaries while remaining accessible and culturally enriching.',
+            icon: Navigation,  // was Target, now Compass for guiding recommendations
+            title: 'Tailored Recommendations',
+            description: 'Receive content suggestions based on your mood, taste, and previous interactions, helping you explore and enjoy movies, music, books, web series, and anime like never before.',
             gradient: 'from-purple-500 to-pink-500'
         },
         {
-            icon: TrendingUp,
-            title: 'Cultural Growth Tracking',
-            description: 'Monitor your cultural expansion with detailed analytics, progress insights, and personalized feedback on your evolving taste.',
+            icon: Activity,  // same, represents growth tracking
+            title: 'Mood Progress Tracker',
+            description: 'Visualize your journey as your taste evolves. Track your engagement across domains and see how your cultural preferences expand over time.',
             gradient: 'from-pink-500 to-orange-500'
         }
     ];
-
     // Removed unused showVideo state
     const [videoPlayed, setVideoPlayed] = useState(false);
 
@@ -144,10 +124,15 @@ export default function Home() {
 
     const navigate = useNavigate();
 
+
+    const { token } = useContext(ShopContext);
+
     const handleStartJourney = () => {
-        if (!user) return navigate('/auth');
-        if (profile && !profile.onboarding_complete) return navigate('/onboarding');
-        return navigate('/explore');
+        if (!token) {
+            navigate('/login');
+        } else {
+            navigate('/Mode');
+        }
     };
 
     return (
@@ -165,29 +150,31 @@ export default function Home() {
                         className="space-y-8"
                     >
                         <div className="inline-flex items-center space-x-2 bg-white/5 backdrop-blur-xl border border-white/10 rounded-full px-6 py-3 mt-32">
-                            <Sparkles className="w-5 h-5 text-blue-400" />
-                            <span className="text-white/80 text-sm">The Unrecommendation Engine</span>
+                            <BrainCircuit className="w-5 h-5 text-blue-400" />
+                            <span className="text-white/80 text-sm">
+                                Intelligent Mood-Driven AI Engine
+                            </span>
                         </div>
 
                         <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-                            See Life
-                            <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                                Differently Through Stories
+                            Know your Mood
+                            <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                                we'll Recommend Your World
                             </span>
                         </h1>
 
-                        <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
-                            Stories have power: they reflect what we avoid, what we fear, and what we dream.
-                            From the struggles of a student to the choices of a business mind, these movies, songs, and voices teach insight, resilience, and vision.
-                            This platform doesn’t just entertain — it **expands minds and shapes hearts**.
-                        </p>
 
+                        <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
+
+                            Your mood decides what you watch, listen, and read. Movies, music, web series, and books are handpicked to uplift, inspire, and guide your journey today.
+
+                        </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
                             <button
                                 onClick={handleStartJourney}
-                                className="group bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 px-8 py-4 rounded-2xl text-white font-medium transition-all duration-300 hover:scale-105 flex items-center space-x-2"
+                                className="group bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 px-8 py-4 rounded-2xl text-white font-medium transition-all duration-300 hover:scale-105 flex items-center space-x-2"
                             >
-                                <span>Start Your Cultural Journey</span>
+                                <span>Start With Your Mood</span>
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </button>
 
@@ -198,9 +185,10 @@ export default function Home() {
                                 <div className="bg-white/10 p-3 rounded-full group-hover:bg-white/20 transition-colors">
                                     <Play className="w-6 h-6" />
                                 </div>
-                                <span>See How It Works</span>
+                                <span>Watch How AI Understands You</span>
                             </button>
                         </div>
+
                         {/* Embedded YouTube Video (shows on click) */}
                         <div className="mt-8 flex justify-center min-h-[400px]">
                             <div className="relative w-full max-w-4xl aspect-video rounded-2xl overflow-hidden border border-white/10 shadow-lg">
@@ -284,12 +272,13 @@ export default function Home() {
                         transition={{ duration: 0.8 }}
                         className="text-center mb-20"
                     >
-                        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                            Explore Every Cultural Domain
-                        </h2>
-                        <p className="text-xl text-white/60 max-w-3xl mx-auto">
-                            Challenge yourself across multiple cultural dimensions with our comprehensive taste expansion system
-                        </p>
+                       <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+  Every Mood Has a World
+</h2>
+<p className="text-xl text-white/60 max-w-3xl mx-auto">
+  Tell us how you feel, and we’ll show you stories, sounds, and ideas that truly connect with you.
+</p>
+
                     </motion.div>
 
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
@@ -378,42 +367,62 @@ export default function Home() {
                             transition={{ duration: 0.8 }}
                         >
                             <h2 className="text-4xl font-bold text-white mb-6">
-                                The Science of Cultural Discomfort
+                                How Our AI Reads Your Mood
                             </h2>
+
                             <p className="text-white/60 mb-8 leading-relaxed">
-                                Just like physical exercise builds muscle through controlled stress, cultural exercise builds
-                                taste through controlled discomfort. Our AI finds the perfect balance between challenge and accessibility.
+                                Your emotions guide your choices. Our AI understands your mood and recommends content that
+                                matches what you truly need at that moment.
                             </p>
+
                             <div className="space-y-6">
+                                {/* Mood Detection */}
                                 <div className="flex items-start space-x-4">
                                     <div className="bg-blue-500/20 p-3 rounded-xl flex-shrink-0">
-                                        <Eye className="w-6 h-6 text-blue-400" />
+                                        <ScanEye className="w-6 h-6 text-blue-400" />
                                     </div>
                                     <div>
-                                        <h4 className="text-white font-semibold mb-2">Taste Analysis</h4>
-                                        <p className="text-white/60 text-sm">We map your cultural preferences using advanced algorithms and cultural graph data.</p>
+                                        <h4 className="text-white font-semibold mb-2">
+                                            Mood Detection
+                                        </h4>
+                                        <p className="text-white/60 text-sm">
+                                            Identifies your emotional state from interactions and behavior patterns.
+                                        </p>
                                     </div>
                                 </div>
+
+                                {/* AI Recommendation */}
                                 <div className="flex items-start space-x-4">
                                     <div className="bg-purple-500/20 p-3 rounded-xl flex-shrink-0">
-                                        <Zap className="w-6 h-6 text-purple-400" />
+                                        <Brain className="w-6 h-6 text-purple-400" />
                                     </div>
                                     <div>
-                                        <h4 className="text-white font-semibold mb-2">Smart Challenges</h4>
-                                        <p className="text-white/60 text-sm">AI generates personalized discomfort recommendations that stretch your boundaries safely.</p>
+                                        <h4 className="text-white font-semibold mb-2">
+                                            AI Recommendations
+                                        </h4>
+                                        <p className="text-white/60 text-sm">
+                                            Suggests movies, music, books, series, and anime based on your mood.
+                                        </p>
                                     </div>
                                 </div>
+
+                                {/* Mood Insights */}
                                 <div className="flex items-start space-x-4">
                                     <div className="bg-pink-500/20 p-3 rounded-xl flex-shrink-0">
-                                        <TrendingUp className="w-6 h-6 text-pink-400" />
+                                        <BarChart3 className="w-6 h-6 text-pink-400" />
                                     </div>
                                     <div>
-                                        <h4 className="text-white font-semibold mb-2">Growth Tracking</h4>
-                                        <p className="text-white/60 text-sm">Monitor your cultural expansion with detailed analytics and personalized insights.</p>
+                                        <h4 className="text-white font-semibold mb-2">
+                                            Mood Insights
+                                        </h4>
+                                        <p className="text-white/60 text-sm">
+                                            Shows how content impacts your mood and preferences over time.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </motion.div>
+
 
                         <motion.div
                             initial={{ opacity: 0, x: 30 }}
@@ -424,13 +433,18 @@ export default function Home() {
                         >
                             <div className="space-y-6">
                                 <div className="text-center mb-6">
-                                    <h3 className="text-xl font-bold text-white mb-2">Your Cultural Growth</h3>
-                                    <p className="text-white/60 text-sm">Real-time progress visualization</p>
+                                    <h3 className="text-xl font-bold text-white mb-2">
+                                        Your Mood Journey
+                                    </h3>
+                                    <p className="text-white/60 text-sm">
+                                        How your emotions shape your content experience
+                                    </p>
                                 </div>
 
                                 <div className="space-y-4">
+                                    {/* Mood Match Accuracy */}
                                     <div className="flex items-center justify-between">
-                                        <span className="text-white font-medium">Cultural Exposure</span>
+                                        <span className="text-white font-medium">Mood Match Accuracy</span>
                                         <span className="text-blue-400">78%</span>
                                     </div>
                                     <div className="bg-white/10 rounded-full h-3">
@@ -443,8 +457,9 @@ export default function Home() {
                                         />
                                     </div>
 
+                                    {/* Emotional Balance */}
                                     <div className="flex items-center justify-between">
-                                        <span className="text-white font-medium">Comfort Zone Expansion</span>
+                                        <span className="text-white font-medium">Emotional Balance</span>
                                         <span className="text-purple-400">65%</span>
                                     </div>
                                     <div className="bg-white/10 rounded-full h-3">
@@ -457,8 +472,9 @@ export default function Home() {
                                         />
                                     </div>
 
+                                    {/* Content Domains */}
                                     <div className="flex items-center justify-between">
-                                        <span className="text-white font-medium">Domains Mastered</span>
+                                        <span className="text-white font-medium">Content Domains Covered</span>
                                         <span className="text-pink-400">5/5</span>
                                     </div>
                                     <div className="bg-white/10 rounded-full h-3">
@@ -472,22 +488,30 @@ export default function Home() {
                                     </div>
                                 </div>
 
+                                {/* Stats */}
                                 <div className="grid grid-cols-3 gap-4 mt-8">
                                     <div className="text-center">
                                         <div className="text-2xl font-bold text-white">127</div>
-                                        <div className="text-white/60 text-xs">Challenges Completed</div>
+                                        <div className="text-white/60 text-xs">
+                                            Mood-Based Picks
+                                        </div>
                                     </div>
                                     <div className="text-center">
                                         <div className="text-2xl font-bold text-white">23</div>
-                                        <div className="text-white/60 text-xs">New Genres Explored</div>
+                                        <div className="text-white/60 text-xs">
+                                            New Emotions Explored
+                                        </div>
                                     </div>
                                     <div className="text-center">
                                         <div className="text-2xl font-bold text-white">89%</div>
-                                        <div className="text-white/60 text-xs">Growth This Month</div>
+                                        <div className="text-white/60 text-xs">
+                                            Mood Improvement Rate
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </motion.div>
+
                     </div>
                 </div>
             </section>
@@ -504,24 +528,33 @@ export default function Home() {
                     >
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
                             <div>
-                                <div className="text-4xl font-bold text-white mb-2">15k+</div>
-                                <div className="text-white/60">Cultural Explorers</div>
-                                <div className="text-white/40 text-sm mt-1">Active monthly users</div>
+                                <div className="text-4xl font-bold text-white mb-2">10k+</div>
+                                <div className="text-white/60">Mood Interactions</div>
+                                <div className="text-white/40 text-sm mt-1">
+                                    Processed by AI
+                                </div>
                             </div>
+
                             <div>
-                                <div className="text-4xl font-bold text-white mb-2">89%</div>
-                                <div className="text-white/60">Taste Expansion</div>
-                                <div className="text-white/40 text-sm mt-1">Average growth rate</div>
+                                <div className="text-4xl font-bold text-white mb-2">91%</div>
+                                <div className="text-white/60">Recommendation Accuracy</div>
+                                <div className="text-white/40 text-sm mt-1">
+                                    Based on feedback
+                                </div>
                             </div>
+
                             <div>
-                                <div className="text-4xl font-bold text-white mb-2">50+</div>
-                                <div className="text-white/60">Countries & Cultures</div>
-                                <div className="text-white/40 text-sm mt-1">Represented in our database</div>
+                                <div className="text-4xl font-bold text-white mb-2">24/7</div>
+                                <div className="text-white/60">AI Availability</div>
+                                <div className="text-white/40 text-sm mt-1">
+                                    Real-time responses
+                                </div>
                             </div>
                         </div>
                     </motion.div>
                 </div>
             </section>
+
 
             {/* CTA Section */}
             <section className="py-16 px-4">
@@ -534,29 +567,34 @@ export default function Home() {
                         className="space-y-8"
                     >
                         <h2 className="text-4xl md:text-5xl font-bold text-white">
-                            Ready to Challenge
-                            <span className="block bg-gradient-to-r from-blue-400 to-pink-400 bg-clip-text text-transparent">
-                                Your Cultural Boundaries?
+                            Ready to Understand
+                            <span className="block bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+                                Your Mood Better?
                             </span>
                         </h2>
+
                         <p className="text-xl text-white/60 max-w-2xl mx-auto">
-                            Join thousands of cultural explorers discovering new dimensions of taste, creativity, and human expression.
+                            Let AI guide you with smart, mood-aware recommendations designed to
+                            support focus, balance, and emotional clarity.
                         </p>
+
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <button
                                 onClick={handleStartJourney}
-                                className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 px-8 py-4 rounded-2xl text-white font-medium transition-all duration-300 hover:scale-105"
+                                className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 px-8 py-4 rounded-2xl text-white font-medium transition-all duration-300 hover:scale-105"
                             >
-                                <span>Start Your Cultural Journey</span>
+                                <span>Start with Mood Mitra</span>
                                 <ArrowRight className="w-5 h-5" />
                             </button>
+
                             <div className="text-white/60 text-sm">
-                                Free to start • No credit card required
+                                Simple • Fast • AI-Powered
                             </div>
                         </div>
                     </motion.div>
                 </div>
             </section>
+
         </div>
     );
 }

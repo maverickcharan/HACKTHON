@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Compass } from "lucide-react";
+import { Compass, Zap } from "lucide-react";
 
 const Navbar = () => {
     return (
@@ -11,7 +11,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
                         <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-2 rounded-xl">
-                            <Compass className="w-5 h-5 text-white" />
+                            <Zap className="w-5 h-5 text-white" />
                         </div>
                         <span className="text-2xl font-bold text-white">
                             MoodMitra

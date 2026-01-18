@@ -1,24 +1,22 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Globe } from "lucide-react";   // ✅ added
-
+import { Globe, Check } from "lucide-react";
+import ReactCountryFlag from "react-country-flag";
 
 export default function Language() {
     const [selectedItems, setSelectedItems] = useState([]);
     const navigate = useNavigate();
 
-
     const options = [
-        { label: "Hindi", icon: "🌐" },
-        { label: "English", icon: "🌐" },
-        { label: "Telugu", icon: "🌐" },
-        { label: "Tamil", icon: "🌐" },
-        { label: "Kannada", icon: "🌐" },
-        { label: "Malayalam", icon: "🌐" },
-        { label: "Marathi", icon: "🌐" },
-        { label: "Bengali", icon: "🌐" }
+        { label: "Hindi", code: "IN" },
+        { label: "English", code: "GB" },
+        { label: "Telugu", code: "IN" },
+        { label: "Tamil", code: "IN" },
+        { label: "Kannada", code: "IN" },
+        { label: "Malayalam", code: "IN" },
+        { label: "Marathi", code: "IN" },
+        { label: "Bengali", code: "IN" }
     ];
-
 
     function handleSelect(item) {
         setSelectedItems((prev) =>
@@ -30,18 +28,16 @@ export default function Language() {
 
     function handleNext() {
         if (selectedItems.length === 0) return;
-        navigate('/genres');
+        navigate("/genres");
     }
 
-
     function handleBack() {
-        navigate('/Mode'); // go to Home page
+        navigate("/Mode");
     }
 
     return (
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0B1020] to-[#0F172A] text-white px-4">
             <div className="max-w-xl w-full space-y-8">
-
 
                 {/* Globe Icon */}
                 <div className="flex justify-center">
@@ -50,12 +46,13 @@ export default function Language() {
                     </div>
                 </div>
 
-
                 {/* Title */}
                 <div className="text-center">
-                    <h1 className="text-3xl font-bold">What Language do you enjoy?</h1>
+                    <h1 className="text-3xl font-bold">
+                        What language do you enjoy?
+                    </h1>
                     <p className="text-white/60 mt-2">
-                        select your language to help use understand your language
+                        Select your preferred languages
                     </p>
                 </div>
 
@@ -65,7 +62,7 @@ export default function Language() {
                         {selectedItems.map((item) => (
                             <span
                                 key={item}
-                                className="px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400 text-sm"
+                                className="px-3 py-1 rounded-full bg-purple-500/20 border border-purple-400 text-sm"
                             >
                                 {item}
                             </span>
@@ -73,26 +70,36 @@ export default function Language() {
                     </div>
                 )}
 
-                {/* Options */}
+                {/* Language Options */}
                 <div className="flex flex-wrap justify-center gap-4">
-                    {options.map(({ label, icon }) => (
-                        <button
-                            key={label}
-                            onClick={() => handleSelect(label)}
-                            className={`flex items-center gap-2 px-5 py-2 rounded-full border transition-all
-                ${selectedItems.includes(label)
-                                    ? "bg-purple-600 border-purple-400 scale-105"
-                                    : "bg-white/5 border-white/20 hover:bg-white/10"
-                                }`}
-                        >
-                            <span className="text-lg">{icon}</span>
-                            <span>{label}</span>
-                        </button>
-                    ))}
+                    {options.map(({ label, code }) => {
+                        const isSelected = selectedItems.includes(label);
+
+                        return (
+                            <button
+                                key={label}
+                                onClick={() => handleSelect(label)}
+                                className={`flex items-center gap-3 px-5 py-2 rounded-full border transition-all relative
+                                ${isSelected
+                                        ? "bg-purple-600 border-purple-400 scale-105"
+                                        : "bg-white/5 border-white/20 hover:bg-white/10"
+                                    }`}
+                            >
+                                <ReactCountryFlag
+                                    svg
+                                    countryCode={code}
+                                    style={{ width: "1.5em", height: "1.5em" }}
+                                />
+
+                                <span>{label}</span>
+
+                            </button>
+                        );
+                    })}
                 </div>
 
+                {/* Navigation Buttons */}
                 <div className="flex justify-between items-center pt-6">
-                    {/* Back Button */}
                     <button
                         onClick={handleBack}
                         className="px-6 py-2 rounded-xl border border-white/30 hover:bg-white/10 transition"
@@ -100,12 +107,11 @@ export default function Language() {
                         ← Back
                     </button>
 
-                    {/* Next Button */}
                     <button
                         onClick={handleNext}
                         disabled={selectedItems.length === 0}
                         className={`px-8 py-3 rounded-xl font-medium transition-all
-            ${selectedItems.length > 0
+                        ${selectedItems.length > 0
                                 ? "bg-gradient-to-r from-blue-500 to-pink-500 hover:scale-105"
                                 : "bg-white/10 text-white/40 cursor-not-allowed"
                             }`}
