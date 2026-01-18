@@ -17,6 +17,7 @@ import PodCastsPage from './pages/Podcasts/PodCastsPage';
 import AnimePage from './pages/Anime/AnimePage';
 import WebseriesPage from './pages/Webseries/WebseriesPage';
 import Mode from './pages/Mode';
+import { Login } from './pages/Login';
 
 /* ---------- Layouts ---------- */
 
@@ -64,6 +65,7 @@ const App = () => {
            <Route path="/youtubePage" element={<PodCastsPage />} />
            <Route path="/animePage" element={<AnimePage />} />
             <Route path="/webseriesPage" element={<WebseriesPage />} />
+             <Route path="/login" element={<Login/>} />
         </Route>
       </Routes>
     </div>                      

@@ -34,7 +34,7 @@ const Navbar = () => {
                             About
                         </Link>
                         <Link
-                            to="/Mode"
+                            to="/login"
                             className="text-sm font-medium text-white/80 hover:text-white transition-colors"
                         >
                             Sign In
