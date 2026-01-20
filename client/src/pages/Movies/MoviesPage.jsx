@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import MoviesGrid from "./MoviesGrid";
 import moviesData from "./moviesData";
-import MoviesFiltersSidebar from "./MoviesFiltersSidebar";
 import { useShopContext } from "../../context/shopcontext";
 
 const MoviesPage = () => {
@@ -79,15 +78,7 @@ const MoviesPage = () => {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row p-6 gap-6">
-        {/* Left Sidebar */}
-        <div className="lg:w-64">
-          <MoviesFiltersSidebar
-            selected={selectedCategories}
-            setSelected={setSelectedCategories}
-            onChange={handleCategoryChange}
-          />
-        </div>
+      <div className="flex flex lg:flex-row p-6 gap-6">
 
         {/* Right Content */}
         <div className="flex-1">

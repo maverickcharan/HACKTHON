@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { youtubeData } from "./YoutubeData";
-import YoutubeFiltersSidebar from "./YoutubeFiltersSidebar";
 import YoutubeGrid from "./YoutubeGrid";
 import { useShopContext } from "../../context/shopcontext";
 
@@ -78,14 +77,6 @@ const YoutubePage = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row p-6 gap-6">
-        {/* LEFT SIDEBAR */}
-        <div className="lg:w-64">
-          <YoutubeFiltersSidebar
-            selected={selectedCategories}
-            onChange={handleFilterChange}
-          />
-        </div>
-
         {/* RIGHT GRID */}
         <div className="flex-1">
           <YoutubeGrid channels={filteredChannels} />

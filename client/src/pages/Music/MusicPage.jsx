@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { musicData } from "./MusicData";
-import MusicFiltersSidebar from "./MusicFiltersSidebar";
 import MusicGrid from "./MusicGrid";
 import { useShopContext } from "../../context/shopcontext";
 
@@ -77,14 +76,8 @@ const MusicPage = () => {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row p-6 gap-6">
-        {/* LEFT SIDEBAR */}
-        <div className="lg:w-64">
-          <MusicFiltersSidebar
-            selected={selectedCategories}
-            onChange={handleFilterChange}
-          />
-        </div>
+      <div className="flex flex lg:flex-row p-6 gap-6">
+        
 
         {/* RIGHT GRID */}
         <div className="flex-1">

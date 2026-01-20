@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { webseriesData } from "./WebseriesData";
-import WebseriesFiltersSidebar from "./WebseriesFiltersSidebar";
 import WebseriesGrid from "./WebseriesGrid";
-import WebseriesTopBar from "./WebseriesTopBar";
 import { useShopContext } from "../../context/shopcontext";
 
 const WebseriesPage = () => {
@@ -77,21 +75,10 @@ const WebseriesPage = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col lg:flex-row p-6 gap-6">
-                {/* LEFT SIDEBAR */}
-                <div className="lg:w-64">
-                    <WebseriesFiltersSidebar
-                        selected={selectedCategories}
-                        onChange={handleFilterChange}
-                    />
-                </div>
-
+            <div className="flex  lg:flex-row p-6 gap-6">
                 {/* MAIN CONTENT AREA */}
                 <div className="flex-1">
-                    {/* TOP SEARCH BAR */}
-                    <div className="mb-6">
-                        <WebseriesTopBar />
-                    </div>
+                   
 
                     {/* GRID BELOW */}
                     <WebseriesGrid series={filteredSeries} />

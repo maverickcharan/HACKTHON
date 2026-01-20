@@ -4,56 +4,88 @@ export const animeData = [
     id: 1,
     title: "Naruto",
     category: "Action",
-    language: "English", // ✅ ADD THIS
-    mood: "Need Motivation" // ✅ ADD THIS
+    language: "English",
+    mood: "Need Motivation",
+    youtubeUrl: "https://youtu.be/-G9BqkgZXRA"
   },
   {
     id: 2,
-    title: "Attack on Titan",
-    category: "Thriller",
-    language: "English", // ✅ ADD THIS
-    mood: "Want Focus" // ✅ ADD THIS
+    title: "Naruto",
+    category: "Action",
+    language: "Hindi",
+    mood: "Need Motivation",
+    youtubeUrl: "https://youtu.be/Tz1kU7hHx2M"
   },
   {
     id: 3,
-    title: "Death Note",
-    category: "Psychological",
-    language: "English", // ✅ ADD THIS
-    mood: "Want Focus" // ✅ ADD THIS
+    title: "Naruto",
+    category: "Action",
+    language: "Tamil",
+    mood: "Need Motivation",
+    youtubeUrl: "https://youtu.be/1XG4K6mYq7U"
   },
   {
     id: 4,
-    title: "One Piece",
-    category: "Adventure",
-    language: "English", // ✅ ADD THIS
-    mood: "Just for Fun" // ✅ ADD THIS
+    title: "Naruto",
+    category: "Action",
+    language: "Telugu",
+    mood: "Need Motivation",
+    youtubeUrl: "https://youtu.be/9v6J8P8v3P8"
   },
   {
     id: 5,
-    title: "Demon Slayer",
+    title: "Naruto",
     category: "Action",
-    language: "English", // ✅ ADD THIS
-    mood: "Need Motivation" // ✅ ADD THIS
+    language: "Kannada",
+    mood: "Need Motivation",
+    youtubeUrl: "https://youtu.be/6Yj9wZsKpRA"
   },
   {
     id: 6,
-    title: "Your Name",
-    category: "Romance",
-    language: "English", // ✅ ADD THIS
-    mood: "Feeling Low" // ✅ ADD THIS
+    title: "Attack on Titan",
+    category: "Thriller",
+    language: "English",
+    mood: "Want Focus",
+    youtubeUrl: "https://youtu.be/MGRm4IzK1SQ"
   },
   {
     id: 7,
-    title: "Tokyo Ghoul",
-    category: "Horror",
-    language: "English", // ✅ ADD THIS
-    mood: "Want Focus" // ✅ ADD THIS
+    title: "Attack on Titan",
+    category: "Thriller",
+    language: "Hindi",
+    mood: "Want Focus",
+    youtubeUrl: "https://youtu.be/2x5a5P3Hc1I"
   },
   {
     id: 8,
-    title: "Jujutsu Kaisen",
+    title: "Demon Slayer",
     category: "Action",
-    language: "English", // ✅ ADD THIS
-    mood: "Need Motivation" // ✅ ADD THIS
+    language: "English",
+    mood: "Need Motivation",
+    youtubeUrl: "https://youtu.be/VQGCKyvzIM4"
+  },
+  {
+    id: 9,
+    title: "Demon Slayer",
+    category: "Action",
+    language: "Tamil",
+    mood: "Need Motivation",
+    youtubeUrl: "https://youtu.be/ATJYac_dORw"
+  },
+  {
+    id: 10,
+    title: "Your Name",
+    category: "Romance",
+    language: "English",
+    mood: "Feeling Low",
+    youtubeUrl: "https://youtu.be/xU47nhruN-Q"
+  },
+  {
+    id: 11,
+    title: "Your Name",
+    category: "Romance",
+    language: "Hindi",
+    mood: "Feeling Low",
+    youtubeUrl: "https://youtu.be/o4-URMnBOPU"
   }
 ];
