@@ -79,7 +79,7 @@ const RedirectToPrivacy = () => {
 /* ---------- App ---------- */
 
 const App = () => {
-  return (
+  return (                 
     // ✅ WRAP EVERYTHING WITH ShopProvider
     <ShopProvider>
       <div className="min-h-screen bg-gradient-to-b from-[#0B1020] to-[#0F172A]">
@@ -87,7 +87,7 @@ const App = () => {
 
           {/* WITH Navbar */}
           <Route element={<NavbarLayout />}>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />           
             <Route path="/features" element={<Features />} />
             <Route path="/about" element={<About />} />
           </Route>
