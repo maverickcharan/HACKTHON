@@ -86,13 +86,13 @@ const App = () => {
         <Routes>
 
           {/* WITH Navbar */}
-          <Route element={<NavbarLayout />}>
+          <Route element={<NavbarLayout />}>                       
             <Route path="/" element={<Home />} />           
             <Route path="/features" element={<Features />} />
             <Route path="/about" element={<About />} />
           </Route>
 
-          {/* WITHOUT Navbar */}
+          {/* WITHOUT Navbar */}               
           <Route element={<NoNavbarLayout />}>
             <Route path="/mode" element={<Mode />} />
             <Route path="/language" element={<Language />} />
