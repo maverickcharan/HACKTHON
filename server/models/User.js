@@ -15,6 +15,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    preferredLanguage: {
+  type: String,
+  default: "telugu"
+}
   },
   { timestamps: true }
 );

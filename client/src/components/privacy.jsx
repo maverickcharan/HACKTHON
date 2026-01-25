@@ -19,14 +19,6 @@ export function Privacy() {
 
                 {/* Header with Back Button */}
                 <div className="flex items-center justify-between mb-8">
-                    <button
-                        onClick={() => navigate('/')}
-                        className="flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 rounded-xl transition-all duration-300 border border-white/10"
-                    >
-                        <ArrowLeft className="w-5 h-5" />
-                        Back to App
-                    </button>
-
                     <div className="flex items-center gap-2">
                         <Shield className="w-8 h-8 text-blue-400" />
                         <span className="text-xl font-bold">MoodMitra Privacy</span>

@@ -158,9 +158,9 @@ export default function Home() {
                         </div>
 
                         <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-                            Know your Mood
+                            Know Your Mood
                             <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                                we'll Recommend Your World
+                                We Recommend Your World
                             </span>
                         </h1>
 

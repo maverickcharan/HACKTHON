@@ -2,7 +2,7 @@ import AnimeCard from "./AnimeCard";
 
 const AnimeGrid = ({ animes }) => {
   return (
-    <div className="grid grid-cols-4 gap-4">
+    <div className="grid md:grid-cols-4 gap-4">
       {animes.map((anime) => (
         <AnimeCard
           key={anime.id}

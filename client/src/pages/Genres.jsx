@@ -6,10 +6,10 @@ import {
     Music,
     Book,
     Podcast,
-    Youtube,
     Tv,
     Zap,
-    FileVideo
+    FileVideo,
+    Clapperboard
 } from "lucide-react";
 import { useShopContext } from "../context/shopcontext";
 
@@ -25,9 +25,10 @@ export default function Genres() {
         { label: "Music", icon: <Music className="w-6 h-6" />, color: "from-blue-500 to-cyan-500" },
         { label: "Books", icon: <Book className="w-6 h-6" />, color: "from-emerald-500 to-green-500" },
         { label: "Podcasts", icon: <Podcast className="w-6 h-6" />, color: "from-orange-500 to-amber-500" },
-        { label: "YouTube", icon: <Youtube className="w-6 h-6" />, color: "from-red-500 to-pink-500" },
         { label: "Web Series", icon: <Tv className="w-6 h-6" />, color: "from-purple-500 to-violet-500" },
         { label: "Anime", icon: <Zap className="w-6 h-6" />, color: "from-indigo-500 to-blue-500" },
+        { label: "Documentaries", icon: < Clapperboard className="w-6 h-6" />, color: "from-red-500 to-pink-500" },
+
     ];
 
     // Handle content type selection
@@ -54,15 +55,16 @@ export default function Genres() {
             case "podcasts":
                 navigate("/podcasts");
                 break;
-            case "youtube":
-                navigate("/youtube");
-                break;
             case "web series":
                 navigate("/webseries");
                 break;
             case "anime":
                 navigate("/anime");
                 break;
+            case "documentaries":
+                navigate("/documentaries");
+                break;
+
             default:
                 navigate("/home");
         }

@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import MoviesGrid from "./MoviesGrid";
-import moviesData from "./moviesData";
+
 import { useShopContext } from "../../context/shopcontext";
+import { moviesData } from "./moviesData";
 
 const MoviesPage = () => {
   const navigate = useNavigate();
@@ -34,8 +35,8 @@ const MoviesPage = () => {
         // If movie has no language property, show it
         if (!movie.language) return true;
         // Check if movie language matches any selected language
-        return userPreferences.selectedLanguages.some(lang => 
-          movie.language.toLowerCase().includes(lang.toLowerCase()) || 
+        return userPreferences.selectedLanguages.some(lang =>
+          movie.language.toLowerCase().includes(lang.toLowerCase()) ||
           lang.toLowerCase().includes(movie.language.toLowerCase())
         );
       });
@@ -50,13 +51,16 @@ const MoviesPage = () => {
     if (userPreferences.selectedMood) {
       // Map mood to movie categories
       const moodToCategory = {
-        "Need Motivation": ["Action", "Adventure", "Inspirational"],
-        "Feeling Low": ["Romance", "Comedy", "Drama"],
-        "Want Focus": ["Thriller", "Mystery", "Documentary"],
-        "Want Peace": ["Romance", "Drama", "Fantasy"],
-        "Just for Fun": ["Comedy", "Action", "Adventure"]
-      };
+        "Need Motivation": [ "Dream Chasers",  "Never Give Up", "Rise to the Top", "Self Growth","Student & Career Struggles","Comeback Stories" ],
 
+        "Feeling Low": [ "Comfort Watch", "Healing Stories", "Light Hearted", "Hope & Positivity" ],
+
+        "Want Focus": [ "Mindset & Discipline", "Deep Work","Biopics","Documentary" ],
+
+        "Want Peace": ["Feel Good", "Slow Life","Nature & Travel", "Spiritual" ],
+
+        "Just for Fun": ["Comedy","Light Entertainment","Feel Good Fun", "Family Friendly" ]
+      };
       const recommendedCategories = moodToCategory[userPreferences.selectedMood] || [];
       if (recommendedCategories.length > 0 && selectedCategories.length === 0) {
         // If no categories selected, suggest based on mood
@@ -95,7 +99,7 @@ const MoviesPage = () => {
             </span>
           )}
           {userPreferences.selectedLanguages && userPreferences.selectedLanguages.map((lang, index) => (
-            <span 
+            <span
               key={index}
               className="px-3 py-1 rounded-full bg-purple-500/20 border border-purple-400 text-sm"
             >

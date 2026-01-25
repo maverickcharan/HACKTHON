@@ -49,15 +49,21 @@ const BooksPage = () => {
     // 3. Filter by mood
     if (userPreferences.selectedMood) {
       // Map mood to book categories
-      const moodToCategory = {
+
+      const MoodToCategory = {
+        "Just for Fun": ["Fiction", "Comedy", "Mystery"],
+
         "Need Motivation": ["Self-Help", "Biography", "Inspirational"],
+
         "Feeling Low": ["Fiction", "Romance", "Poetry"],
+
         "Want Focus": ["Non-Fiction", "Educational", "Science"],
-        "Want Peace": ["Spirituality", "Meditation", "Nature"],
-        "Just for Fun": ["Fiction", "Comedy", "Mystery"]
+
+        "Want Peace": ["Spirituality", "Meditation", "Nature"]
       };
 
-      const recommendedCategories = moodToCategory[userPreferences.selectedMood] || [];
+      const recommendedCategories = MoodToCategory[userPreferences.selectedMood] || [];
+
       if (recommendedCategories.length > 0 && selectedCategories.length === 0) {
         // If no categories selected, suggest based on mood
         result = result.filter((b) => recommendedCategories.includes(b.category));
@@ -78,7 +84,7 @@ const BooksPage = () => {
       </div>
 
       <div className="flex flex lg:flex-row p-6 gap-6">
-        
+
 
         {/* RIGHT GRID */}
         <div className="flex-1">

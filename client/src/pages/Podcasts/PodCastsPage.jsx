@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { podcastsData } from "./PodCastsData";
+
 import PodcastsGrid from "./PodcastsGrid";
 import { useShopContext } from "../../context/shopcontext";
+import { podcastsData } from "./PodCastsData";
 
 const PodCastsPage = () => {
   const navigate = useNavigate();

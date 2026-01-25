@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { webseriesData } from "./WebseriesData";
+
 import WebseriesGrid from "./WebseriesGrid";
 import { useShopContext } from "../../context/shopcontext";
+import { webSeriesData } from "./WebseriesData";
 
 const WebseriesPage = () => {
     const navigate = useNavigate();
@@ -25,7 +26,7 @@ const WebseriesPage = () => {
 
     // Apply filters based on user preferences
     useEffect(() => {
-        let result = [...webseriesData];
+        let result = [...webSeriesData];
 
         // 1. Filter by user's selected languages
         if (userPreferences.selectedLanguages && userPreferences.selectedLanguages.length > 0) {

@@ -17,13 +17,13 @@ import MoviesPage from './pages/Movies/MoviesPage';
 import MusicPage from './pages/Music/MusicPage';
 import BooksPage from './pages/Books/BooksPage';
 import PodCastsPage from './pages/Podcasts/PodCastsPage';
-import YoutubePage from './pages/Youtube/YoutubePage'; // ✅ ADD THIS IMPORT
 import AnimePage from './pages/Anime/AnimePage';
 import WebseriesPage from './pages/Webseries/WebseriesPage';
 import Mode from './pages/Mode';
 import { Login } from './pages/Login';
 import { Privacy } from './components/privacy';
 import { ShopProvider } from './context/shopcontext';
+import DocumentaryPage from './pages/Documentary/DocumentaryPage';
 
 /* ---------- Layouts ---------- */
 
@@ -79,20 +79,20 @@ const RedirectToPrivacy = () => {
 /* ---------- App ---------- */
 
 const App = () => {
-  return (                 
+  return (
     // ✅ WRAP EVERYTHING WITH ShopProvider
     <ShopProvider>
       <div className="min-h-screen bg-gradient-to-b from-[#0B1020] to-[#0F172A]">
         <Routes>
 
           {/* WITH Navbar */}
-          <Route element={<NavbarLayout />}>                       
-            <Route path="/" element={<Home />} />           
+          <Route element={<NavbarLayout />}>
+            <Route path="/" element={<Home />} />
             <Route path="/features" element={<Features />} />
             <Route path="/about" element={<About />} />
           </Route>
 
-          {/* WITHOUT Navbar */}               
+          {/* WITHOUT Navbar */}
           <Route element={<NoNavbarLayout />}>
             <Route path="/mode" element={<Mode />} />
             <Route path="/language" element={<Language />} />
@@ -103,9 +103,10 @@ const App = () => {
             <Route path="/music" element={<MusicPage />} />
             <Route path="/books" element={<BooksPage />} />
             <Route path="/podcasts" element={<PodCastsPage />} />
-            <Route path="/youtube" element={<YoutubePage />} /> {/* ✅ FIXED from PodCastsPage */}
+        
             <Route path="/anime" element={<AnimePage />} />
             <Route path="/webseries" element={<WebseriesPage />} />
+            <Route path="/documentaries" element={<DocumentaryPage/>} />
 
             <Route path="/login" element={<Login />} />
             <Route path="/privacy" element={<Privacy />} />
@@ -113,7 +114,7 @@ const App = () => {
             {/* Add this redirect route */}
             <Route path="/privacy.html" element={<RedirectToPrivacy />} />
           </Route>
-
+          documentaries
         </Routes>
       </div>
     </ShopProvider>

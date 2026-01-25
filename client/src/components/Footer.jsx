@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Compass, Heart, Github, Twitter, Mail, Zap, Shield, Database } from 'lucide-react';
 
 export function Footer() {
@@ -66,9 +66,9 @@ export function Footer() {
                     <div className="space-y-4">
                         <h3 className="text-white font-semibold">Product</h3>
                         <div className="space-y-2">
-                            <a href="#" className="block text-white/60 hover:text-white transition-colors text-sm">
+                            <Link to="/features" className="block text-white/60 hover:text-white transition-colors text-sm">
                                 Features
-                            </a>
+                            </Link>
                             <a href="#" className="block text-white/60 hover:text-white transition-colors text-sm">
                                 How it Works
                             </a>
@@ -85,9 +85,9 @@ export function Footer() {
                     <div className="space-y-4">
                         <h3 className="text-white font-semibold">Company</h3>
                         <div className="space-y-2">
-                            <a href="#" className="block text-white/60 hover:text-white transition-colors text-sm">
+                            <Link to="/about" className="block text-white/60 hover:text-white transition-colors text-sm">
                                 About
-                            </a>
+                            </Link>
                             <a href="#" className="block text-white/60 hover:text-white transition-colors text-sm">
                                 Blog
                             </a>
