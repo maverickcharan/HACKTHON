@@ -168,7 +168,7 @@ export default function Home() {
                         <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
 
                             Your mood decides what you watch, listen, and read. Movies, music, web series, and books are handpicked to uplift, inspire, and guide your journey today.
-      
+                                     
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
                             <button
@@ -178,7 +178,7 @@ export default function Home() {
                                 <span>Start With Your Mood</span>
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </button>
-
+                             
                             <button           
                                 className="group flex items-center space-x-3 text-white/80 hover:text-white transition-colors"
                                 onClick={() => { setVideoPlayed(true); }}            
@@ -187,24 +187,24 @@ export default function Home() {
                                     <Play className="w-6 h-6" />
                                 </div>                   
                                 <span>Watch How AI Understands You</span>
-                            </button>                                      
+                            </button>                                                         
                         </div>
                                         
                         {/* Embedded YouTube Video (shows on click) */}
                         <div className="mt-8 flex justify-center min-h-[400px]">
                             <div className="relative w-full max-w-4xl aspect-video rounded-2xl overflow-hidden border border-white/10 shadow-lg">
-                                <iframe                  
+                                <iframe                                      
                                     width="100%"                     
                                     height="100%"
                                     src={`https://www.youtube.com/embed/5QOY6OIpbMQ${videoPlayed ? '?autoplay=1&rel=0&modestbranding=1&controls=1' : '?rel=0&modestbranding=1&controls=1'}`}
                                     title="How Zesty Works"
-                                    frameBorder="0"                           
+                                    frameBorder="0"                                       
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowFullScreen
                                     className="w-full h-full object-cover"
                                     style={{ display: 'block' }}
                                 ></iframe>                     
-                                {!videoPlayed && (
+                                {!videoPlayed && (                
                                     <button
                                         className="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/60 transition-colors cursor-pointer z-10"
                                         aria-label="Play video"
@@ -213,7 +213,7 @@ export default function Home() {
                                     >
                                         <div className="bg-white/20 p-6 rounded-full flex items-center justify-center shadow-lg">
                                             <Play className="w-16 h-16 text-white drop-shadow-lg" />
-                                        </div>
+                                        </div>                 
                                     </button>
                                 )}
                             </div>
