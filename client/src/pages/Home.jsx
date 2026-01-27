@@ -205,7 +205,7 @@ export default function Home() {
                                     style={{ display: 'block' }}
                                 ></iframe>                     
                                 {!videoPlayed && (                
-                                    <button                          
+                                    <button                                     
                                         className="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/60 transition-colors cursor-pointer z-10"
                                         aria-label="Play video"
                                         onClick={() => { setVideoPlayed(true); }}
@@ -213,8 +213,8 @@ export default function Home() {
                                     >
                                         <div className="bg-white/20 p-6 rounded-full flex items-center justify-center shadow-lg">
                                             <Play className="w-16 h-16 text-white drop-shadow-lg" />
-                                        </div>                 
-                                    </button>                           
+                                        </div>                                      
+                                    </button>                                           
                                 )}           
                             </div>
                         </div>
