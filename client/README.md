@@ -1,16 +1,82 @@
-# React + Vite
+# 🌙 MoodMitr – AI Mood-Based Recommendation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MoodMitr is not just another recommendation app.  
+It is a purpose-driven platform built to support mental wellness by delivering movies, music, and motivational content based on how a user truly feels.
 
-Currently, two official plugins are available:
+This project is designed to turn emotions into meaningful action.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Problem Statement
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Millions of people experience stress, loneliness, sadness, and lack of motivation every day.
 
-## Expanding the ESLint configuration
+Yet most digital platforms only push trending or popular content —  
+they do NOT understand human emotion.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This creates a gap between what users feel and what they consume.
+
+MoodMitr exists to close that gap.
+
+---
+
+## 💡 Solution
+
+MoodMitr allows users to select their current mood and instantly receive personalized recommendations that align with their emotional state.
+
+No noise.  
+No randomness.  
+Only relevant content.
+
+This transforms content consumption into emotional support.
+
+---
+
+## 🧠 Core Features
+
+- Mood-based selection system  
+- Personalized movie, music, and motivation recommendations  
+- Clean, minimal, distraction-free UI  
+- Fast and responsive performance  
+- Beginner-friendly and scalable architecture  
+
+---
+
+## 🛠 Tech Stack
+
+- React.js  
+- Vite  
+- JavaScript  
+- CSS  
+- Dummy JSON Data (for demonstration)
+
+---
+
+## ⚙️ How It Works
+
+1. User selects a mood  
+2. System filters content mapped to that mood  
+3. Matching recommendations are displayed instantly  
+
+Simple logic.  
+Powerful impact.
+
+---
+
+## 🎯 Vision
+
+MoodMitr is built as a foundation for future AI and Machine Learning integration.
+
+The long-term vision is to analyze user behavior and emotional patterns to deliver even more accurate and intelligent recommendations.
+
+---
+
+## 🎥 Demo Video
+
+
+
+---
+
+## 👤 Creator
+
+Charantej Reddy

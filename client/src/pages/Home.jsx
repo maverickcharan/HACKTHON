@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useContext } from 'react';
 
-import {Tv, BookOpen, Star, Cpu, ArrowRight, Play, Zap, Activity, Music2,Clapperboard, ScanEye,BrainCircuit, Navigation, Brain, BarChart3 } from 'lucide-react';  // slightly different icons
+import { Tv, BookOpen, Star, Cpu, ArrowRight, Play, Zap, Activity, Music2, Clapperboard, ScanEye, BrainCircuit, Navigation, Brain, BarChart3 } from 'lucide-react';  // slightly different icons
 import { ShopContext } from '../context/shopcontext';
 
 export default function Home() {
@@ -150,74 +150,84 @@ export default function Home() {
                         transition={{ duration: 0.8 }}
                         className="space-y-8"
                     >
-                        <div className="inline-flex items-center space-x-2 bg-white/5 backdrop-blur-xl border border-white/10 rounded-full px-6 py-3 mt-32">
-                            <BrainCircuit className="w-5 h-5 text-blue-400" />
+
+                        {/* Badge */}
+                        <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-xl border border-white/20 rounded-full px-6 py-3 mt-32">
+                            <BrainCircuit className="w-5 h-5 text-teal-400" />
                             <span className="text-white/80 text-sm">
                                 Intelligent Mood-Driven AI Engine
                             </span>
                         </div>
 
+                        {/* Heading */}
                         <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
                             Know Your Mood
-                            <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                            <span className="block bg-gradient-to-r from-teal-400 via-violet-400 to-rose-400 bg-clip-text text-transparent">
                                 We Recommend Your World
                             </span>
                         </h1>
 
-
+                        {/* Description */}
                         <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
-
-                            Your mood decides what you watch, listen, and read. Movies, music, web series, and books are handpicked to uplift, inspire, and guide your journey today.
-                                     
+                            Your mood decides what you watch, listen, and read. Movies, music, web series,
+                            and books are handpicked to uplift, inspire, and guide your journey today.
                         </p>
+
+                        {/* Buttons */}
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
+
                             <button
-                                onClick={handleStartJourney}             
-                                className="group bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 px-8 py-4 rounded-2xl text-white font-medium transition-all duration-300 hover:scale-105 flex items-center space-x-2"
+                                onClick={handleStartJourney}
+                                className="group bg-gradient-to-r from-teal-500 to-violet-500 hover:from-teal-600 hover:to-violet-600 px-8 py-4 rounded-2xl text-white font-medium transition-all duration-300 hover:scale-105 flex items-center space-x-2"
                             >
                                 <span>Start With Your Mood</span>
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </button>
-                             
-                            <button           
+
+                            <button
                                 className="group flex items-center space-x-3 text-white/80 hover:text-white transition-colors"
-                                onClick={() => { setVideoPlayed(true); }}            
+                                onClick={() => { setVideoPlayed(true); }}
                             >
-                                <div className="bg-white/10 p-3 rounded-full group-hover:bg-white/20 transition-colors">
+                                <div className="bg-white/20 p-3 rounded-full group-hover:bg-white/30 transition-colors">
                                     <Play className="w-6 h-6" />
-                                </div>                   
+                                </div>
                                 <span>Watch How AI Understands You</span>
-                            </button>                                                         
+                            </button>
+
                         </div>
-                                        
-                        {/* Embedded YouTube Video (shows on click) */}
+
+                        {/* Video */}
                         <div className="mt-8 flex justify-center min-h-[400px]">
-                            <div className="relative w-full max-w-4xl aspect-video rounded-2xl overflow-hidden border border-white/10 shadow-lg">
-                                <iframe                                      
-                                    width="100%"                     
+                            <div className="relative w-full max-w-4xl aspect-video rounded-2xl overflow-hidden border border-white/20 shadow-xl">
+
+                                <iframe
+                                    width="100%"
                                     height="100%"
                                     src={`https://www.youtube.com/embed/5QOY6OIpbMQ${videoPlayed ? '?autoplay=1&rel=0&modestbranding=1&controls=1' : '?rel=0&modestbranding=1&controls=1'}`}
                                     title="How Zesty Works"
-                                    frameBorder="0"                                       
+                                    frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowFullScreen
                                     className="w-full h-full object-cover"
                                     style={{ display: 'block' }}
-                                ></iframe>                     
-                                {!videoPlayed && (                
-                                    <button                                     
-                                        className="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/60 transition-colors cursor-pointer z-10"
+                                ></iframe>
+
+                                {!videoPlayed && (
+                                    <button
+                                        className="absolute inset-0 flex items-center justify-center bg-black/50 hover:bg-black/70 transition-colors cursor-pointer z-10"
                                         aria-label="Play video"
                                         onClick={() => { setVideoPlayed(true); }}
                                         tabIndex={0}
                                     >
-                                        <div className="bg-white/20 p-6 rounded-full flex items-center justify-center shadow-lg">
+                                        <div className="bg-white/30 p-6 rounded-full flex items-center justify-center shadow-lg">
                                             <Play className="w-16 h-16 text-white drop-shadow-lg" />
-                                        </div>                                      
-                                    </button>                                           
-                                )}           
+                                        </div>
+                                    </button>
+                                )}
+
                             </div>
                         </div>
+
                     </motion.div>
                 </div>
 
@@ -244,24 +254,27 @@ export default function Home() {
                             >
                                 <div
                                     className="
-        relative 
-        flex flex-col items-center justify-center 
-        w-32 h-32 p-6 
-        rounded-full 
-        border border-white/10 
-        shadow-lg shadow-black/20 
-        backdrop-blur-xl 
-        bg-[radial-gradient(circle_at_25%_25%,_rgba(255,255,255,0.3)_0%,_rgba(255,255,255,0.05)_50%)]
-      "
+              relative 
+              flex flex-col items-center justify-center 
+              w-32 h-32 p-6 
+              rounded-full 
+              border border-white/20 
+              shadow-lg shadow-black/30 
+              backdrop-blur-xl 
+              bg-[radial-gradient(circle_at_25%_25%,_rgba(255,255,255,0.35)_0%,_rgba(255,255,255,0.08)_50%)]
+            "
                                 >
                                     <Icon className={`w-8 h-8 ${domain.color} mb-2`} />
-                                    <span className="text-white text-sm font-medium text-center">{domain.name}</span>
+                                    <span className="text-white text-sm font-medium text-center">
+                                        {domain.name}
+                                    </span>
                                 </div>
                             </motion.div>
                         );
                     })}
                 </div>
             </section>
+
 
             {/* Cultural Domains Showcase */}
             <section className="py-16 px-4">
