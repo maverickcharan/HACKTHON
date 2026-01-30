@@ -229,6 +229,7 @@ export default function Home() {
                     </motion.div>
                 </div>               
 
+
                 {/* Floating Cultural Icons */}
                 <div className="absolute inset-0 pointer-events-none overflow-hidden">
                     {culturalDomains.map((domain, index) => {
@@ -270,7 +271,7 @@ export default function Home() {
                     })}
                 </div>
             </section>
-
+                                     
             {/* Cultural Domains Showcase */}
             <section className="py-16 px-4">
                 <div className="max-w-6xl mx-auto">
@@ -292,7 +293,7 @@ export default function Home() {
 
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
                         {culturalDomains.map((domain, index) => {
-                            const Icon = domain.icon;
+                            const Icon = domain.icon;  
                             return (
                                 <motion.div
                                     key={domain.name}
