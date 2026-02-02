@@ -7,7 +7,6 @@ import moodRoutes from "./routes/moodRoutes.js";
 import adminRoutes from "./routes/adminRoutes.js";
 dotenv.config();
 
-
 const app = express();
 
 app.use(cors());

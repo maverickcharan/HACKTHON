@@ -2,8 +2,8 @@
   {
     "title": "Interstellar",
     "category": "Movies",
-    "language": "English",
-    "mood": "Want Focus",
+    "language": "English",                 
+    "mood": "Want Focus",   
     "description": "Space exploration and time travel sci-fi movie"
   },
   {
@@ -18,4 +18,6 @@
     "category": "Books",
     "language": "English",
     "mood": "Need Motivation",                
-    "descr
+    "description": "Self improvement and habit building"                
+  }
+]
