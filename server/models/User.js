@@ -16,9 +16,9 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
     preferredLanguage: {
-  type: String,
-  default: "telugu"
-}
+      type: String,
+      default: "telugu"
+    }
   },
   { timestamps: true }
 );
