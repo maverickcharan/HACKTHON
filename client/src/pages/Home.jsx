@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import { useContext } from 'react';
 
 import { Tv, BookOpen, Star, Cpu, ArrowRight, Play, Zap, Activity, Music2, Clapperboard, ScanEye, BrainCircuit, Navigation, Brain, BarChart3 } from 'lucide-react';  // slightly different icons
-import { ShopContext } from '../context/shopcontext';
 
 export default function Home() {
     const culturalDomains = [
@@ -126,10 +125,10 @@ export default function Home() {
     const navigate = useNavigate();
 
 
-    const { token } = useContext(ShopContext);
+
 
     const handleStartJourney = () => {
-            navigate('/Mode');
+        navigate('/Mode');
     };
 
     return (
@@ -166,23 +165,23 @@ export default function Home() {
                         </h1>
 
 
-                                                
+
 
                         <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
                             Your mood decides what you watch, listen, and read. Movies, music, web series, and books are handpicked to uplift, inspire, and guide your journey today.
-                        </p>                  
+                        </p>
 
 
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
                             <button
-                                onClick={handleStartJourney}                    
+                                onClick={handleStartJourney}
                                 className="group bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 px-8 py-4 rounded-2xl text-white font-medium transition-all duration-300 hover:scale-105 flex items-center space-x-2"
                             >
                                 <span>Start With Your Mood</span>
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </button>
-                                                                 
-                            <button                    
+
+                            <button
                                 className="group flex items-center space-x-3 text-white/80 hover:text-white transition-colors"
                                 onClick={() => { setVideoPlayed(true); }}
                             >
@@ -192,8 +191,8 @@ export default function Home() {
                                 <span>Watch How AI Understands You</span>
                             </button>
                         </div>
-                    
-                                                              
+
+
                         {/* Embedded YouTube Video (shows on click) */}
                         <div className="mt-8 flex justify-center min-h-[400px]">
                             <div className="relative w-full max-w-4xl aspect-video rounded-2xl overflow-hidden border border-white/10 shadow-lg">
@@ -223,7 +222,7 @@ export default function Home() {
                             </div>
                         </div>
                     </motion.div>
-                </div>               
+                </div>
 
 
                 {/* Floating Cultural Icons */}
@@ -239,7 +238,7 @@ export default function Home() {
                                     top: config.position.top,
                                     left: config.position.left,
                                     scale: config.size.scale,
-                                }}              
+                                }}
                                 animate={{
                                     y: [...config.animation.y],
                                     rotate: [...config.animation.rotate],
@@ -267,7 +266,7 @@ export default function Home() {
                     })}
                 </div>
             </section>
-                                     
+
             {/* Cultural Domains Showcase */}
             <section className="py-16 px-4">
                 <div className="max-w-6xl mx-auto">
@@ -289,7 +288,7 @@ export default function Home() {
 
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
                         {culturalDomains.map((domain, index) => {
-                            const Icon = domain.icon;  
+                            const Icon = domain.icon;
                             return (
                                 <motion.div
                                     key={domain.name}

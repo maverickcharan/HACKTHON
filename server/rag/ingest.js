@@ -1,6 +1,11 @@
 import { Chroma } from "@langchain/community/vectorstores/chroma";
 import { OllamaEmbeddings } from "@langchain/ollama";
 import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 console.log("🚀 Ingest started...");
 
@@ -12,7 +17,6 @@ const embeddings = new OllamaEmbeddings({
   model: "nomic-embed-text"
 });
 
-
 const BATCH_SIZE = 50;
 
 // ---- FIRST BATCH ----
@@ -22,16 +26,16 @@ const firstBatch = data.slice(0, BATCH_SIZE).map(item => ({
 }));
 
 console.log("📦 Creating collection with first batch...");
+console.log(`💾 Persisting to: ${path.resolve(__dirname, "chroma")}`);
 
 const vectorStore = await Chroma.fromDocuments(
   firstBatch,
   embeddings,
   {
     collectionName: "content-db-v2",
-    persistDirectory: "./chroma"
+    persistDirectory: path.resolve(__dirname, "chroma")
   }
 );
-
 
 // ---- REMAINING BATCHES ----
 for (let i = BATCH_SIZE; i < data.length; i += BATCH_SIZE) {

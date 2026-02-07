@@ -1,19 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { cacheService } from '../services/cacheService';
 
 const Settings = () => {
-  const [isOfflineMode, setIsOfflineMode] = useState(false);
+  const [isOfflineMode, setIsOfflineMode] = useState(() => cacheService.getOfflineMode());
 
-  useEffect(() => {
-    // Load offline mode setting on mount
-    setIsOfflineMode(cacheService.getOfflineMode());
-  }, []);
-
-  const handleToggleOfflineMode = () => {     
+  const handleToggleOfflineMode = () => {
     const newMode = !isOfflineMode;
     setIsOfflineMode(newMode);
     cacheService.setOfflineMode(newMode);
-    
+
     if (newMode) {
       // Show success message
       alert('Offline mode enabled! Recommendations will be cached.');
@@ -42,19 +37,17 @@ const Settings = () => {
                 Perfect for travel or limited data.
               </p>
             </div>
-            
+
             {/* Toggle Switch */}
             <button
               onClick={handleToggleOfflineMode}
-              className={`relative inline-flex h-7 w-14 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ${
-                isOfflineMode ? 'bg-green-500' : 'bg-gray-300'
-              }`}
+              className={`relative inline-flex h-7 w-14 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ${isOfflineMode ? 'bg-green-500' : 'bg-gray-300'
+                }`}
               aria-label="Toggle offline mode"
             >
               <span
-                className={`inline-block h-5 w-5 transform rounded-full bg-white shadow-lg transition-transform ${
-                  isOfflineMode ? 'translate-x-8' : 'translate-x-1'
-                }`}
+                className={`inline-block h-5 w-5 transform rounded-full bg-white shadow-lg transition-transform ${isOfflineMode ? 'translate-x-8' : 'translate-x-1'
+                  }`}
               />
             </button>
           </div>

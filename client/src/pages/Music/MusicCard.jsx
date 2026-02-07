@@ -3,6 +3,15 @@ const MusicCard = ({ music }) => {
   return (
     <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 hover:shadow-lg transition">
 
+      {/* IMAGE */}
+      {music.image && (
+        <img
+          src={music.image}
+          alt={music.title}
+          className="w-full h-48 object-cover rounded-md mb-3"
+        />
+      )}
+
       {/* TITLE */}
       <h3 className="text-lg font-semibold text-white mb-1">
         {music.title}

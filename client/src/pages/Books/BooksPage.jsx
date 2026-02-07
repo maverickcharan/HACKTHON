@@ -46,44 +46,45 @@ const BooksPage = () => {
   ----------------------------------- */
 
   useEffect(() => {
+    async function fetchAIBooks() {
+      try {
+        const res = await fetch(
+          "http://localhost:5000/api/mood/recommend",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              mood: activeMood,
+              language: userPreferences.selectedLanguages?.[0] || "English",
+              category: "Books"
+            })
+          }
+        );
+
+        const data = await res.json();
+
+        if (!res.ok) {
+          console.error(data);
+          setBooks([]);
+          setLoading(false);
+          return;
+        }
+
+        setBooks(data.recommendations || []);
+        setLoading(false);
+
+      } catch (error) {
+        console.log(error);
+        setLoading(false);
+      }
+    }
+
     if (activeMood) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLoading(true);
       fetchAIBooks();
     }
   }, [activeMood, userPreferences.selectedLanguages]);
-
-  async function fetchAIBooks() {
-    try {
-      const res = await fetch(
-        "http://localhost:5000/api/mood/recommend",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            mood: activeMood,
-            language: userPreferences.selectedLanguages?.[0] || "English",
-            category: "Books"
-          })
-        }
-      );
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        console.error(data);
-        setBooks([]);
-        setLoading(false);
-        return;
-      }
-
-      setBooks(data.recommendations || []);
-      setLoading(false);
-
-    } catch (error) {
-      console.log(error);
-      setLoading(false);
-    }
-  }
 
   /* -----------------------------------
       LOADING UI

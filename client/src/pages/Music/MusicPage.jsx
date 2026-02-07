@@ -46,44 +46,45 @@ const MusicPage = () => {
   ----------------------------------- */
 
   useEffect(() => {
+    async function fetchAIMusic() {
+      try {
+        const res = await fetch(
+          "http://localhost:5000/api/mood/recommend",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              mood: activeMood,
+              language: userPreferences.selectedLanguages?.[0] || "English",
+              category: "Music"
+            })
+          }
+        );
+
+        const data = await res.json();
+
+        if (!res.ok) {
+          console.error(data);
+          setMusicList([]);
+          setLoading(false);
+          return;
+        }
+
+        setMusicList(data.recommendations || []);
+        setLoading(false);
+
+      } catch (error) {
+        console.log("AI Music Error:", error);
+        setLoading(false);
+      }
+    }
+
     if (activeMood) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLoading(true);
       fetchAIMusic();
     }
   }, [activeMood, userPreferences.selectedLanguages]);
-
-  async function fetchAIMusic() {
-    try {
-      const res = await fetch(
-        "http://localhost:5000/api/mood/recommend",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            mood: activeMood,
-            language: userPreferences.selectedLanguages?.[0] || "English",
-            category: "Music"
-          })
-        }
-      );
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        console.error(data);
-        setMusicList([]);
-        setLoading(false);
-        return;
-      }
-
-      setMusicList(data.recommendations || []);
-      setLoading(false);
-
-    } catch (error) {
-      console.log("AI Music Error:", error);
-      setLoading(false);
-    }
-  }
 
   /* -----------------------------------
       LOADING UI

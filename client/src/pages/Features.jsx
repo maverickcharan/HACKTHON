@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+
 import { TrendingUp, Map, Target, BarChart3, CheckCircle, Star, Sparkles, UserCheck, Zap, Eye, Activity, Users, Compass } from 'lucide-react';
 
 const features = [

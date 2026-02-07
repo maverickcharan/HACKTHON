@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 // src/context/ShopContext.jsx
 import React, { createContext, useState, useContext } from "react";
 
@@ -6,18 +7,26 @@ export const ShopContext = createContext();
 
 // 2️⃣ Create provider component                                   
 export const ShopProvider = ({ children }) => {
-            
+
   // 🔐 Auth token
   const [token, setToken] = useState(localStorage.getItem("token") || "");
 
   // ✅ User preferences
-  const [userPreferences, setUserPreferences] = useState({
-    selectedMood: "",
-    selectedLanguages: [],
-    selectedContentType: "",
-    selectedFilters: [],
-    selectedMoodType: ""
+  const [userPreferences, setUserPreferences] = useState(() => {
+    const saved = localStorage.getItem("userPreferences");
+    return saved ? JSON.parse(saved) : {
+      selectedMood: "",
+      selectedLanguages: [],
+      selectedContentType: "",
+      selectedFilters: [],
+      selectedMoodType: ""
+    };
   });
+
+  // Persist preferences whenever they change
+  React.useEffect(() => {
+    localStorage.setItem("userPreferences", JSON.stringify(userPreferences));
+  }, [userPreferences]);
 
   // ✅ AI Recommendation Result
   const [aiResult, setAiResult] = useState(null);

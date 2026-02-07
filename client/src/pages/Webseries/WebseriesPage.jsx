@@ -46,44 +46,45 @@ const WebseriesPage = () => {
     ----------------------------------- */
 
     useEffect(() => {
+        async function fetchAIWebseries() {
+            try {
+                const res = await fetch(
+                    "http://localhost:5000/api/mood/recommend",
+                    {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            mood: activeMood,
+                            language: userPreferences.selectedLanguages?.[0] || "English",
+                            category: "Web Series"
+                        })
+                    }
+                );
+
+                const data = await res.json();
+
+                if (!res.ok) {
+                    console.error(data);
+                    setSeries([]);
+                    setLoading(false);
+                    return;
+                }
+
+                setSeries(data.recommendations || []);
+                setLoading(false);
+
+            } catch (error) {
+                console.log("AI Webseries Error:", error);
+                setLoading(false);
+            }
+        }
+
         if (activeMood) {
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setLoading(true);
             fetchAIWebseries();
         }
     }, [activeMood, userPreferences.selectedLanguages]);
-
-    async function fetchAIWebseries() {
-        try {
-            const res = await fetch(
-                "http://localhost:5000/api/mood/recommend",
-                {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        mood: activeMood,
-                        language: userPreferences.selectedLanguages?.[0] || "English",
-                        category: "Web Series"
-                    })
-                }
-            );
-
-            const data = await res.json();
-
-            if (!res.ok) {
-                console.error(data);
-                setSeries([]);
-                setLoading(false);
-                return;
-            }
-
-            setSeries(data.recommendations || []);
-            setLoading(false);
-
-        } catch (error) {
-            console.log("AI Webseries Error:", error);
-            setLoading(false);
-        }
-    }
 
     /* -----------------------------------
         LOADING UI

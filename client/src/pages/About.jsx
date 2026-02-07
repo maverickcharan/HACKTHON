@@ -1,6 +1,6 @@
 import React from 'react';
 import { Compass, Sparkles, Brain, Target, TrendingUp, Film, Music, BookOpen, Users, Globe } from 'lucide-react';
-import { motion } from 'framer-motion';
+
 
 const culturalDomains = [
     { icon: Film, name: 'Movies & Web Series', color: 'text-red-400', description: 'Stories that inspire, motivate, and reflect life' },

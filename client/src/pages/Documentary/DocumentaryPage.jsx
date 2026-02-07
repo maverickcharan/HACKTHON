@@ -46,44 +46,45 @@ const DocumentaryPage = () => {
     ----------------------------------- */
 
     useEffect(() => {
+        async function fetchAIDocumentaries() {
+            try {
+                const res = await fetch(
+                    "http://localhost:5000/api/mood/recommend",
+                    {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            mood: activeMood,
+                            language: userPreferences.selectedLanguages?.[0] || "English",
+                            category: "Documentaries"
+                        })
+                    }
+                );
+
+                const data = await res.json();
+
+                if (!res.ok) {
+                    console.error(data);
+                    setDocumentaries([]);
+                    setLoading(false);
+                    return;
+                }
+
+                setDocumentaries(data.recommendations || []);
+                setLoading(false);
+
+            } catch (error) {
+                console.log(error);
+                setLoading(false);
+            }
+        }
+
         if (activeMood) {
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setLoading(true);
             fetchAIDocumentaries();
         }
     }, [activeMood, userPreferences.selectedLanguages]);
-
-    async function fetchAIDocumentaries() {
-        try {
-            const res = await fetch(
-                "http://localhost:5000/api/mood/recommend",
-                {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        mood: activeMood,
-                        language: userPreferences.selectedLanguages?.[0] || "English",
-                        category: "Documentaries"
-                    })
-                }
-            );
-
-            const data = await res.json();
-
-            if (!res.ok) {
-                console.error(data);
-                setDocumentaries([]);
-                setLoading(false);
-                return;
-            }
-
-            setDocumentaries(data.recommendations || []);
-            setLoading(false);
-
-        } catch (error) {
-            console.log(error);
-            setLoading(false);
-        }
-    }
 
     /* -----------------------------------
         LOADING UI

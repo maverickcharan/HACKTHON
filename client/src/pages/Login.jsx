@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+
 import { Mail, Lock, User, Eye, EyeOff } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { ShopContext } from '../context/shopcontext';
@@ -9,9 +9,9 @@ import { useNavigate } from 'react-router-dom';
 export function Login() {
     const [isLogin, setIsLogin] = useState(true);
     const [showPassword, setShowPassword] = useState(false);
-    const [loading, setLoading] = useState(false);
-    const { token, setToken,backendUrl} = useContext(ShopContext);
-          
+    const [loading] = useState(false);
+    const { token, setToken, backendUrl } = useContext(ShopContext);
+
     const navigate = useNavigate()
 
     const [formData, setFormData] = useState({
@@ -21,36 +21,36 @@ export function Login() {
     });
 
     const onSubmitHandler = async (e) => {
-  e.preventDefault();
+        e.preventDefault();
 
-  try {
-    let response;
+        try {
+            let response;
 
-    if (isLogin) {
-      // LOGIN
-      response = await axios.post(`${backendUrl}/auth/login`, {
-        email: formData.email,
-        password: formData.password
-      });
-    } else {
-      // SIGN UP
-      response = await axios.post(`${backendUrl}/auth/register`, {
-        name: formData.fullName,
-        email: formData.email,
-        password: formData.password
-      });
-    }
+            if (isLogin) {
+                // LOGIN
+                response = await axios.post(`${backendUrl}/auth/login`, {
+                    email: formData.email,
+                    password: formData.password
+                });
+            } else {
+                // SIGN UP
+                response = await axios.post(`${backendUrl}/auth/register`, {
+                    name: formData.fullName,
+                    email: formData.email,
+                    password: formData.password
+                });
+            }
 
-    if (response.data.token) {
-      setToken(response.data.token); // store token in context + localStorage
-      navigate('/'); // go to home
-    }
+            if (response.data.token) {
+                setToken(response.data.token); // store token in context + localStorage
+                navigate('/'); // go to home
+            }
 
-  } catch (error) {
-    console.log(error);
-    toast.error(error.response?.data?.message || error.message);
-  }
-};
+        } catch (error) {
+            console.log(error);
+            toast.error(error.response?.data?.message || error.message);
+        }
+    };
     useEffect(() => {
         if (token) navigate("/");
     }, [token, navigate]);

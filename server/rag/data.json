@@ -5,7 +5,8 @@
     "category": "Movies",
     "language": "English",
     "mood": "Feeling Low",
-    "description": "Struggling father's journey towards success and hope"
+    "description": "Struggling father's journey towards success and hope",
+    "image": "https://image.tmdb.org/t/p/original/5jhG1lTgV0MS6tDkBMQSSitttTT.jpg"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "category": "Movies",
     "language": "Hindi",
     "mood": "Feeling Low",
-    "description": "Child's emotional journey and hidden talent"
+    "description": "Child's emotional journey and hidden talent",
+    "image": "https://image.tmdb.org/t/p/original/bPwdy3zaNnMdZ22u0WCcYu0xxgt.jpg"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "category": "Movies",
     "language": "Telugu",
     "mood": "Feeling Low",
-    "description": "Multiple life stories filled with emotion and reality"
+    "description": "Multiple life stories filled with emotion and reality",
+    "image": "https://image.tmdb.org/t/p/original/A5kNXar0xOkk6B62Hq5Qs8YYCLF.jpg"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "category": "Movies",
     "language": "Tamil",
     "mood": "Feeling Low",
-    "description": "Fight for justice and human rights"
+    "description": "Fight for justice and human rights",
+    "image": "https://image.tmdb.org/t/p/original/40lmQ5vzKJhj5k7i0hvZuglneyj.jpg"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "category": "Movies",
     "language": "Kannada",
     "mood": "Feeling Low",
-    "description": "Emotional action drama about friendship and sacrifice"
+    "description": "Emotional action drama about friendship and sacrifice",
+    "image": "https://image.tmdb.org/t/p/original/2RHKfO5oDU9PXOj2amTeAuu1vdE.jpg"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "category": "Movies",
     "language": "Malayalam",
     "mood": "Feeling Low",
-    "description": "Broken family and healing relationships"
+    "description": "Broken family and healing relationships",
+    "image": "https://image.tmdb.org/t/p/original/8i8ml0LRdFT6LSaTMUG3gLzJfEq.jpg"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "category": "Movies",
     "language": "Marathi",
     "mood": "Feeling Low",
-    "description": "Intense love story with social reality"
+    "description": "Intense love story with social reality",
+    "image": "https://image.tmdb.org/t/p/original/vBId5iBnayC6yyqKFeX9shSaoCQ.jpg"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "category": "Movies",
     "language": "Bengali",
     "mood": "Feeling Low",
-    "description": "Classic film with social message and emotions"
+    "description": "Classic film with social message and emotions",
+    "image": "https://image.tmdb.org/t/p/original/943ZTnFp42woYnfyV8ggcAP20hi.jpg"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "category": "Movies",
     "language": "English",
     "mood": "Want Peace",
-    "description": "Journey of self discovery and calm adventure"
+    "description": "Journey of self discovery and calm adventure",
+    "image": "https://image.tmdb.org/t/p/original/pzMrxeP9XkKOtQVUBPTq5yk4ck5.jpg"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "category": "Movies",
     "language": "Hindi",
     "mood": "Want Peace",
-    "description": "Finding purpose and belonging"
+    "description": "Finding purpose and belonging",
+    "image": "https://image.tmdb.org/t/p/original/AmRfsOyEXpVhnaYXZMoDlZd9Siq.jpg"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "category": "Movies",
     "language": "Telugu",
     "mood": "Want Peace",
-    "description": "Honest leadership and values"
+    "description": "Honest leadership and values",
+    "image": "https://image.tmdb.org/t/p/original/6D3TKts3ZLhl9xcax9Crt9KEMbW.jpg"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "category": "Movies",
     "language": "Tamil",
     "mood": "Want Peace",
-    "description": "Pure love and nostalgia"
+    "description": "Pure love and nostalgia",
+    "image": "https://image.tmdb.org/t/p/original/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "category": "Movies",
     "language": "Kannada",
     "mood": "Want Peace",
-    "description": "Soft romantic drama"
+    "description": "Soft romantic drama",
+    "image": "https://image.tmdb.org/t/p/original/1XUAbTrGDZwF5jfJmgHkechJQjP.jpg"
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "category": "Movies",
     "language": "Malayalam",
     "mood": "Want Peace",
-    "description": "Friendship, love and life"
+    "description": "Friendship, love and life",
+    "image": "https://image.tmdb.org/t/p/original/vWBcVHy4oPAqzCuDlth6JAa2Kng.jpg"
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "category": "Movies",
     "language": "Marathi",
     "mood": "Want Peace",
-    "description": "Musical emotional journey"
+    "description": "Musical emotional journey",
+    "image": "https://image.tmdb.org/t/p/original/tBH3CVthbZUESP3sdLvYrPL3i7b.jpg"
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "category": "Movies",
     "language": "Bengali",
     "mood": "Want Peace",
-    "description": "Light hearted fantasy comedy"
+    "description": "Light hearted fantasy comedy",
+    "image": "https://image.tmdb.org/t/p/original/6ZMqLQvmlsxMH35EGSh9E4EvfC0.jpg"
   },
   {
     "id": 17,
@@ -133,7 +149,8 @@
     "category": "Movies",
     "language": "English",
     "mood": "Need Motivation",
-    "description": "Never give up boxing story"
+    "description": "Never give up boxing story",
+    "image": "https://image.tmdb.org/t/p/original/wC36tEU7AqP5llAvjXkZhZ248tX.jpg"
   },
   {
     "id": 18,
@@ -141,7 +158,8 @@
     "category": "Movies",
     "language": "Hindi",
     "mood": "Need Motivation",
-    "description": "Father trains daughters to become champions"
+    "description": "Father trains daughters to become champions",
+    "image": "https://image.tmdb.org/t/p/original/l0fNAHLOFReQJsxCOmGWvJDnimn.jpg"
   },
   {
     "id": 19,
@@ -149,7 +167,8 @@
     "category": "Movies",
     "language": "Telugu",
     "mood": "Need Motivation",
-    "description": "Fight against injustice"
+    "description": "Fight against injustice",
+    "image": "https://image.tmdb.org/t/p/original/6JdOkSgd8wkAQbT6Ncib4DrnyiS.jpg"
   },
   {
     "id": 20,
@@ -157,7 +176,8 @@
     "category": "Movies",
     "language": "Tamil",
     "mood": "Need Motivation",
-    "description": "Dream of affordable flights"
+    "description": "Dream of affordable flights",
+    "image": "https://image.tmdb.org/t/p/original/tZDdwUFL9OLhx2AhSMjKsg4abNb.jpg"
   },
   {
     "id": 21,
@@ -165,7 +185,8 @@
     "category": "Movies",
     "language": "Kannada",
     "mood": "Need Motivation",
-    "description": "Values and responsibility"
+    "description": "Values and responsibility",
+    "image": "https://image.tmdb.org/t/p/original/anwBonJKLcWcBMYYMslLLVcfMvC.jpg"
   },
   {
     "id": 22,
@@ -173,7 +194,8 @@
     "category": "Movies",
     "language": "Malayalam",
     "mood": "Need Motivation",
-    "description": "Survival and courage"
+    "description": "Survival and courage",
+    "image": "https://image.tmdb.org/t/p/original/dmTOjntqSXOCtFVRcvXIqSyY9MQ.jpg"
   },
   {
     "id": 23,
@@ -181,7 +203,8 @@
     "category": "Movies",
     "language": "Marathi",
     "mood": "Need Motivation",
-    "description": "Rise from poverty"
+    "description": "Rise from poverty",
+    "image": "https://image.tmdb.org/t/p/original/nAG9VFWwsUXUGjKnTi4aQmU6hjU.jpg"
   },
   {
     "id": 24,
@@ -189,7 +212,8 @@
     "category": "Movies",
     "language": "Bengali",
     "mood": "Need Motivation",
-    "description": "Passion for cinema"
+    "description": "Passion for cinema",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 25,
@@ -197,7 +221,8 @@
     "category": "Movies",
     "language": "English",
     "mood": "Just for Fun",
-    "description": "Kid vs burglars comedy"
+    "description": "Kid vs burglars comedy",
+    "image": "https://image.tmdb.org/t/p/original/8fnYJPoXxwAN4valDLgz2whMGTH.jpg"
   },
   {
     "id": 26,
@@ -205,7 +230,8 @@
     "category": "Movies",
     "language": "Hindi",
     "mood": "Just for Fun",
-    "description": "Classic comedy"
+    "description": "Classic comedy",
+    "image": "https://image.tmdb.org/t/p/original/vr4fskAEI91XoBNMxEiW8Tx3Q6g.jpg"
   },
   {
     "id": 27,
@@ -213,7 +239,8 @@
     "category": "Movies",
     "language": "Telugu",
     "mood": "Just for Fun",
-    "description": "Crazy comedy adventure"
+    "description": "Crazy comedy adventure",
+    "image": "https://image.tmdb.org/t/p/original/sLTe3l1SX2h7xjfO0vwKhoQm3hx.jpg"
   },
   {
     "id": 28,
@@ -221,7 +248,8 @@
     "category": "Movies",
     "language": "Tamil",
     "mood": "Just for Fun",
-    "description": "Romantic comedy"
+    "description": "Romantic comedy",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 29,
@@ -229,7 +257,8 @@
     "category": "Movies",
     "language": "Kannada",
     "mood": "Just for Fun",
-    "description": "College fun and friendship"
+    "description": "College fun and friendship",
+    "image": "https://image.tmdb.org/t/p/original/mXdxoXvtoOxQ3mnzbzuvpGuJ8cW.jpg"
   },
   {
     "id": 30,
@@ -237,7 +266,8 @@
     "category": "Movies",
     "language": "Malayalam",
     "mood": "Just for Fun",
-    "description": "Romantic fun drama"
+    "description": "Romantic fun drama",
+    "image": "https://image.tmdb.org/t/p/original/wC8pr7J1wD5GSHPmiipokZ4Nwwm.jpg"
   },
   {
     "id": 32,
@@ -245,7 +275,8 @@
     "category": "Movies",
     "language": "Bengali",
     "mood": "Just for Fun",
-    "description": "Romantic entertainer"
+    "description": "Romantic entertainer",
+    "image": "https://image.tmdb.org/t/p/original/huTilrUWxEMWT5MzMVLbZ0uJorR.jpg"
   },
   {
     "id": 33,
@@ -253,7 +284,8 @@
     "category": "Movies",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Startup and innovation story"
+    "description": "Startup and innovation story",
+    "image": "https://image.tmdb.org/t/p/original/1GlZNA9L5trst3ItgRiyQTUH1uf.jpg"
   },
   {
     "id": 34,
@@ -261,7 +293,8 @@
     "category": "Movies",
     "language": "Hindi",
     "mood": "Want Focus",
-    "description": "Business ethics and growth"
+    "description": "Business ethics and growth",
+    "image": "https://image.tmdb.org/t/p/original/bQk9Z0cj9OXB56sESStXVQgGKHC.jpg"
   },
   {
     "id": 35,
@@ -269,7 +302,8 @@
     "category": "Movies",
     "language": "Telugu",
     "mood": "Want Focus",
-    "description": "Political family drama"
+    "description": "Political family drama",
+    "image": "https://image.tmdb.org/t/p/original/vn6zHyo4kASQ8mY6PIHBxiBSuS.jpg"
   },
   {
     "id": 36,
@@ -277,7 +311,8 @@
     "category": "Movies",
     "language": "Tamil",
     "mood": "Want Focus",
-    "description": "Crime and morality"
+    "description": "Crime and morality",
+    "image": "https://image.tmdb.org/t/p/original/iOWXSdxNDCCTrJh2Pyst3SgRsfG.jpg"
   },
   {
     "id": 37,
@@ -285,7 +320,8 @@
     "category": "Movies",
     "language": "Kannada",
     "mood": "Want Focus",
-    "description": "Rashomon style thriller"
+    "description": "Rashomon style thriller",
+    "image": "https://image.tmdb.org/t/p/original/dzWZjG0HF7wUw6VhAEIdDaqn6z7.jpg"
   },
   {
     "id": 38,
@@ -293,7 +329,8 @@
     "category": "Movies",
     "language": "Malayalam",
     "mood": "Want Focus",
-    "description": "Smart crime thriller"
+    "description": "Smart crime thriller",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 39,
@@ -301,7 +338,8 @@
     "category": "Movies",
     "language": "Marathi",
     "mood": "Want Focus",
-    "description": "Parallel life mystery"
+    "description": "Parallel life mystery",
+    "image": "https://image.tmdb.org/t/p/original/7Pc8L9kfeqMAYOXODlKZthu32kK.jpg"
   },
   {
     "id": 40,
@@ -309,7 +347,8 @@
     "category": "Movies",
     "language": "Bengali",
     "mood": "Want Focus",
-    "description": "Detective mystery"
+    "description": "Detective mystery",
+    "image": "https://image.tmdb.org/t/p/original/lGAdlzjEWuHNXfP2p4CMuNgmMTq.jpg"
   },
   {
     "id": 41,
@@ -317,7 +356,8 @@
     "category": "Music",
     "language": "English",
     "mood": "Feeling Low",
-    "description": "Emotional song about loss"
+    "description": "Emotional song about loss",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 42,
@@ -325,7 +365,8 @@
     "category": "Music",
     "language": "Hindi",
     "mood": "Feeling Low",
-    "description": "Heart touching breakup song"
+    "description": "Heart touching breakup song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 43,
@@ -333,7 +374,8 @@
     "category": "Music",
     "language": "Telugu",
     "mood": "Feeling Low",
-    "description": "Melancholic love song"
+    "description": "Melancholic love song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 44,
@@ -341,7 +383,8 @@
     "category": "Music",
     "language": "Tamil",
     "mood": "Feeling Low",
-    "description": "Painful breakup song"
+    "description": "Painful breakup song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 45,
@@ -349,7 +392,8 @@
     "category": "Music",
     "language": "Kannada",
     "mood": "Feeling Low",
-    "description": "Emotional melody"
+    "description": "Emotional melody",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 46,
@@ -357,7 +401,8 @@
     "category": "Music",
     "language": "Malayalam",
     "mood": "Feeling Low",
-    "description": "Soft emotional song"
+    "description": "Soft emotional song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 47,
@@ -365,7 +410,8 @@
     "category": "Music",
     "language": "Marathi",
     "mood": "Feeling Low",
-    "description": "Lonely love song"
+    "description": "Lonely love song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 48,
@@ -373,7 +419,8 @@
     "category": "Music",
     "language": "Bengali",
     "mood": "Feeling Low",
-    "description": "Soulful romantic song"
+    "description": "Soulful romantic song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 49,
@@ -381,7 +428,8 @@
     "category": "Music",
     "language": "English",
     "mood": "Need Motivation",
-    "description": "Song about inner strength"
+    "description": "Song about inner strength",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 50,
@@ -389,7 +437,8 @@
     "category": "Music",
     "language": "Hindi",
     "mood": "Need Motivation",
-    "description": "Never give up anthem"
+    "description": "Never give up anthem",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 51,
@@ -397,7 +446,8 @@
     "category": "Music",
     "language": "Telugu",
     "mood": "Need Motivation",
-    "description": "Powerful mass song"
+    "description": "Powerful mass song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 52,
@@ -405,7 +455,8 @@
     "category": "Music",
     "language": "Tamil",
     "mood": "Need Motivation",
-    "description": "Fight back song"
+    "description": "Fight back song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 53,
@@ -413,7 +464,8 @@
     "category": "Music",
     "language": "Kannada",
     "mood": "Need Motivation",
-    "description": "Inspiring track"
+    "description": "Inspiring track",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 54,
@@ -421,7 +473,8 @@
     "category": "Music",
     "language": "Malayalam",
     "mood": "Need Motivation",
-    "description": "Rise up song"
+    "description": "Rise up song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 55,
@@ -429,7 +482,8 @@
     "category": "Music",
     "language": "Marathi",
     "mood": "Need Motivation",
-    "description": "Powerful folk song"
+    "description": "Powerful folk song",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 56,
@@ -437,7 +491,8 @@
     "category": "Music",
     "language": "Bengali",
     "mood": "Need Motivation",
-    "description": "Classic inspirational song"
+    "description": "Classic inspirational song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 57,
@@ -445,7 +500,8 @@
     "category": "Music",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Instrumental concentration music"
+    "description": "Instrumental concentration music",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 58,
@@ -453,7 +509,8 @@
     "category": "Music",
     "language": "Hindi",
     "mood": "Want Focus",
-    "description": "Feel good travel song"
+    "description": "Feel good travel song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 59,
@@ -461,7 +518,8 @@
     "category": "Music",
     "language": "Telugu",
     "mood": "Want Focus",
-    "description": "Positive energy song"
+    "description": "Positive energy song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 60,
@@ -469,7 +527,8 @@
     "category": "Music",
     "language": "Tamil",
     "mood": "Want Focus",
-    "description": "Chill vibe song"
+    "description": "Chill vibe song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 61,
@@ -477,7 +536,8 @@
     "category": "Music",
     "language": "Kannada",
     "mood": "Want Focus",
-    "description": "Morning motivation song"
+    "description": "Morning motivation song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 62,
@@ -485,7 +545,8 @@
     "category": "Music",
     "language": "Malayalam",
     "mood": "Want Focus",
-    "description": "Peaceful melody"
+    "description": "Peaceful melody",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 63,
@@ -493,7 +554,8 @@
     "category": "Music",
     "language": "Marathi",
     "mood": "Want Focus",
-    "description": "Romantic calm song"
+    "description": "Romantic calm song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 65,
@@ -501,7 +563,8 @@
     "category": "Music",
     "language": "English",
     "mood": "Want Peace",
-    "description": "Calming song"
+    "description": "Calming song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 66,
@@ -509,7 +572,8 @@
     "category": "Music",
     "language": "Hindi",
     "mood": "Want Peace",
-    "description": "Spiritual sufi song"
+    "description": "Spiritual sufi song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 67,
@@ -517,7 +581,8 @@
     "category": "Music",
     "language": "Telugu",
     "mood": "Want Peace",
-    "description": "Soothing romantic song"
+    "description": "Soothing romantic song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 68,
@@ -525,7 +590,8 @@
     "category": "Music",
     "language": "Tamil",
     "mood": "Want Peace",
-    "description": "Soft melody"
+    "description": "Soft melody",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 69,
@@ -533,7 +599,8 @@
     "category": "Music",
     "language": "Kannada",
     "mood": "Want Peace",
-    "description": "Calm love song"
+    "description": "Calm love song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 70,
@@ -541,7 +608,8 @@
     "category": "Music",
     "language": "Malayalam",
     "mood": "Want Peace",
-    "description": "Romantic melody"
+    "description": "Romantic melody",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 71,
@@ -549,7 +617,8 @@
     "category": "Music",
     "language": "Marathi",
     "mood": "Want Peace",
-    "description": "Soulful track"
+    "description": "Soulful track",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 72,
@@ -557,7 +626,8 @@
     "category": "Music",
     "language": "Bengali",
     "mood": "Want Peace",
-    "description": "Classic peaceful song"
+    "description": "Classic peaceful song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 73,
@@ -565,7 +635,8 @@
     "category": "Music",
     "language": "English",
     "mood": "Just for Fun",
-    "description": "Feel good song"
+    "description": "Feel good song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 74,
@@ -573,7 +644,8 @@
     "category": "Music",
     "language": "Hindi",
     "mood": "Just for Fun",
-    "description": "Party dance song"
+    "description": "Party dance song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 75,
@@ -581,7 +653,8 @@
     "category": "Music",
     "language": "Telugu",
     "mood": "Just for Fun",
-    "description": "Fun romantic song"
+    "description": "Fun romantic song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 76,
@@ -589,7 +662,8 @@
     "category": "Music",
     "language": "Tamil",
     "mood": "Just for Fun",
-    "description": "Mass dance song"
+    "description": "Mass dance song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 77,
@@ -597,7 +671,8 @@
     "category": "Music",
     "language": "Kannada",
     "mood": "Just for Fun",
-    "description": "Energetic song"
+    "description": "Energetic song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 78,
@@ -605,7 +680,8 @@
     "category": "Music",
     "language": "Malayalam",
     "mood": "Just for Fun",
-    "description": "Viral dance song"
+    "description": "Viral dance song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 79,
@@ -613,7 +689,8 @@
     "category": "Music",
     "language": "Marathi",
     "mood": "Just for Fun",
-    "description": "High energy song"
+    "description": "High energy song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 80,
@@ -621,7 +698,8 @@
     "category": "Music",
     "language": "Bengali",
     "mood": "Just for Fun",
-    "description": "Fun dance number"
+    "description": "Fun dance number",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 81,
@@ -629,7 +707,8 @@
     "category": "Books",
     "language": "English",
     "mood": "Feeling Low",
-    "description": "Emotional love story"
+    "description": "Emotional love story",
+    "image": "http://books.google.com/books/content?id=Qk8n0olOX5MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 82,
@@ -637,7 +716,8 @@
     "category": "Books",
     "language": "Hindi",
     "mood": "Feeling Low",
-    "description": "Classic tragic romance"
+    "description": "Classic tragic romance",
+    "image": "http://books.google.com/books/content?id=1O_TBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 83,
@@ -645,7 +725,8 @@
     "category": "Books",
     "language": "Telugu",
     "mood": "Feeling Low",
-    "description": "Emotional life stories"
+    "description": "Emotional life stories",
+    "image": "http://books.google.com/books/content?id=nGgZXbImeh0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 84,
@@ -653,7 +734,8 @@
     "category": "Books",
     "language": "Tamil",
     "mood": "Feeling Low",
-    "description": "Painful love story"
+    "description": "Painful love story",
+    "image": "http://books.google.com/books/content?id=V4rcDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 85,
@@ -661,7 +743,8 @@
     "category": "Books",
     "language": "Kannada",
     "mood": "Feeling Low",
-    "description": "Life and emotions"
+    "description": "Life and emotions",
+    "image": "http://books.google.com/books/content?id=QHAh40PA5k8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 86,
@@ -669,7 +752,8 @@
     "category": "Books",
     "language": "Malayalam",
     "mood": "Feeling Low",
-    "description": "Mythological emotional novel"
+    "description": "Mythological emotional novel",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 87,
@@ -677,7 +761,8 @@
     "category": "Books",
     "language": "Marathi",
     "mood": "Feeling Low",
-    "description": "Inner struggle of youth"
+    "description": "Inner struggle of youth",
+    "image": "http://books.google.com/books/content?id=62N6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 88,
@@ -685,7 +770,8 @@
     "category": "Books",
     "language": "Bengali",
     "mood": "Feeling Low",
-    "description": "Simple life hardships"
+    "description": "Simple life hardships",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 89,
@@ -693,7 +779,8 @@
     "category": "Books",
     "language": "English",
     "mood": "Need Motivation",
-    "description": "Build good habits"
+    "description": "Build good habits",
+    "image": "http://books.google.com/books/content?id=WmqyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 90,
@@ -701,7 +788,8 @@
     "category": "Books",
     "language": "Hindi",
     "mood": "Need Motivation",
-    "description": "Success mindset"
+    "description": "Success mindset",
+    "image": "http://books.google.com/books/content?id=9m0bswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": 91,
@@ -709,7 +797,8 @@
     "category": "Books",
     "language": "Telugu",
     "mood": "Need Motivation",
-    "description": "Life of A.P.J Abdul Kalam"
+    "description": "Life of A.P.J Abdul Kalam",
+    "image": "http://books.google.com/books/content?id=c3qmIZtWUjAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 92,
@@ -717,7 +806,8 @@
     "category": "Books",
     "language": "Tamil",
     "mood": "Need Motivation",
-    "description": "Self confidence book"
+    "description": "Self confidence book",
+    "image": "http://books.google.com/books/content?id=XGUUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 93,
@@ -725,7 +815,8 @@
     "category": "Books",
     "language": "Kannada",
     "mood": "Need Motivation",
-    "description": "Positive thinking"
+    "description": "Positive thinking",
+    "image": "http://books.google.com/books/content?id=HjZnAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 94,
@@ -733,7 +824,8 @@
     "category": "Books",
     "language": "Malayalam",
     "mood": "Need Motivation",
-    "description": "Life struggle stories"
+    "description": "Life struggle stories",
+    "image": "http://books.google.com/books/content?id=K3IvEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 95,
@@ -741,7 +833,8 @@
     "category": "Books",
     "language": "Marathi",
     "mood": "Need Motivation",
-    "description": "Story of strength"
+    "description": "Story of strength",
+    "image": "http://books.google.com/books/content?id=nrR9D_ydGwoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 97,
@@ -749,7 +842,8 @@
     "category": "Books",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Power of concentration"
+    "description": "Power of concentration",
+    "image": "http://books.google.com/books/content?id=lZpFCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 98,
@@ -757,7 +851,8 @@
     "category": "Books",
     "language": "Hindi",
     "mood": "Want Focus",
-    "description": "Life strategies"
+    "description": "Life strategies",
+    "image": "http://books.google.com/books/content?id=n43FDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 99,
@@ -765,7 +860,8 @@
     "category": "Books",
     "language": "Telugu",
     "mood": "Want Focus",
-    "description": "Self discipline guide"
+    "description": "Self discipline guide",
+    "image": "http://books.google.com/books/content?id=n2ilngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": 100,
@@ -773,7 +869,8 @@
     "category": "Books",
     "language": "Tamil",
     "mood": "Want Focus",
-    "description": "Moral teachings"
+    "description": "Moral teachings",
+    "image": "http://books.google.com/books/content?id=VDf8hpXqclYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 101,
@@ -781,7 +878,8 @@
     "category": "Books",
     "language": "Kannada",
     "mood": "Want Focus",
-    "description": "Spiritual wisdom"
+    "description": "Spiritual wisdom",
+    "image": "http://books.google.com/books/content?id=dSA3hsIq5dsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 102,
@@ -789,7 +887,8 @@
     "category": "Books",
     "language": "Malayalam",
     "mood": "Want Focus",
-    "description": "Life lessons"
+    "description": "Life lessons",
+    "image": "http://books.google.com/books/content?id=593wDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 103,
@@ -797,7 +896,8 @@
     "category": "Books",
     "language": "Marathi",
     "mood": "Want Focus",
-    "description": "Leadership story"
+    "description": "Leadership story",
+    "image": "http://books.google.com/books/content?id=N5mIVt_Zd-0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 104,
@@ -805,7 +905,8 @@
     "category": "Books",
     "language": "Bengali",
     "mood": "Want Focus",
-    "description": "Poetic inspiration"
+    "description": "Poetic inspiration",
+    "image": "http://books.google.com/books/content?id=IproIa_rIv8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 105,
@@ -813,7 +914,8 @@
     "category": "Books",
     "language": "English",
     "mood": "Want Peace",
-    "description": "Spiritual journey"
+    "description": "Spiritual journey",
+    "image": "http://books.google.com/books/content?id=XPXtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 106,
@@ -821,7 +923,8 @@
     "category": "Books",
     "language": "Hindi",
     "mood": "Want Peace",
-    "description": "Spiritual life story"
+    "description": "Spiritual life story",
+    "image": "http://books.google.com/books/content?id=xsIi4ePN4hYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 107,
@@ -829,7 +932,8 @@
     "category": "Books",
     "language": "Telugu",
     "mood": "Want Peace",
-    "description": "Family emotions"
+    "description": "Family emotions",
+    "image": "http://books.google.com/books/content?id=3yafEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 108,
@@ -837,7 +941,8 @@
     "category": "Books",
     "language": "Tamil",
     "mood": "Want Peace",
-    "description": "Classic epic"
+    "description": "Classic epic",
+    "image": "http://books.google.com/books/content?id=2ZldDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 109,
@@ -845,7 +950,8 @@
     "category": "Books",
     "language": "Kannada",
     "mood": "Want Peace",
-    "description": "Village life story"
+    "description": "Village life story",
+    "image": "http://books.google.com/books/content?id=m1R2Pa3f7r0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 110,
@@ -853,7 +959,8 @@
     "category": "Books",
     "language": "Malayalam",
     "mood": "Want Peace",
-    "description": "Love and tradition"
+    "description": "Love and tradition",
+    "image": "http://books.google.com/books/content?id=8S9MDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 111,
@@ -861,7 +968,8 @@
     "category": "Books",
     "language": "Marathi",
     "mood": "Want Peace",
-    "description": "Philosophical novel"
+    "description": "Philosophical novel",
+    "image": "http://books.google.com/books/content?id=quX57xnaGaoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 112,
@@ -869,7 +977,8 @@
     "category": "Books",
     "language": "Bengali",
     "mood": "Want Peace",
-    "description": "Classic romance"
+    "description": "Classic romance",
+    "image": "http://books.google.com/books/content?id=zr_x57ZcCuAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 113,
@@ -877,7 +986,8 @@
     "category": "Books",
     "language": "English",
     "mood": "Just for Fun",
-    "description": "Funny school life"
+    "description": "Funny school life",
+    "image": "http://books.google.com/books/content?id=8MXK_KrHOZYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": 114,
@@ -885,7 +995,8 @@
     "category": "Books",
     "language": "Hindi",
     "mood": "Just for Fun",
-    "description": "Witty tales"
+    "description": "Witty tales",
+    "image": "http://books.google.com/books/content?id=hpEcyd2fXa4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 115,
@@ -893,7 +1004,8 @@
     "category": "Books",
     "language": "Telugu",
     "mood": "Just for Fun",
-    "description": "Mythology comics"
+    "description": "Mythology comics",
+    "image": "http://books.google.com/books/content?id=Io0o0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": 116,
@@ -901,7 +1013,8 @@
     "category": "Books",
     "language": "Tamil",
     "mood": "Just for Fun",
-    "description": "Comedy comics"
+    "description": "Comedy comics",
+    "image": "http://books.google.com/books/content?id=aHRjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 117,
@@ -909,7 +1022,8 @@
     "category": "Books",
     "language": "Kannada",
     "mood": "Just for Fun",
-    "description": "Fantasy fun"
+    "description": "Fantasy fun",
+    "image": "http://books.google.com/books/content?id=hLqeEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 118,
@@ -917,7 +1031,8 @@
     "category": "Books",
     "language": "Malayalam",
     "mood": "Just for Fun",
-    "description": "Adventure story"
+    "description": "Adventure story",
+    "image": "http://books.google.com/books/content?id=YVgGEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 119,
@@ -925,7 +1040,8 @@
     "category": "Books",
     "language": "Marathi",
     "mood": "Just for Fun",
-    "description": "Funny stories"
+    "description": "Funny stories",
+    "image": "http://books.google.com/books/content?id=K4poDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 120,
@@ -933,7 +1049,8 @@
     "category": "Books",
     "language": "Bengali",
     "mood": "Just for Fun",
-    "description": "Humorous tales"
+    "description": "Humorous tales",
+    "image": "http://books.google.com/books/content?id=ax0YAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 121,
@@ -941,7 +1058,8 @@
     "category": "Web Series",
     "language": "English",
     "mood": "Feeling Low",
-    "description": "Teen struggles and emotional challenges"
+    "description": "Teen struggles and emotional challenges",
+    "image": "https://image.tmdb.org/t/p/original/c4CSgKL6QfkJxsWcGYDyTxpbzpW.jpg"
   },
   {
     "id": 122,
@@ -949,7 +1067,8 @@
     "category": "Web Series",
     "language": "Hindi",
     "mood": "Feeling Low",
-    "description": "Crime investigation and harsh realities"
+    "description": "Crime investigation and harsh realities",
+    "image": "https://image.tmdb.org/t/p/original/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg"
   },
   {
     "id": 123,
@@ -957,7 +1076,8 @@
     "category": "Web Series",
     "language": "Telugu",
     "mood": "Feeling Low",
-    "description": "Dark crime and family drama"
+    "description": "Dark crime and family drama",
+    "image": "https://image.tmdb.org/t/p/original/ctJgmGoGsipOCFiXLmptjVwFtMH.jpg"
   },
   {
     "id": 124,
@@ -965,7 +1085,8 @@
     "category": "Web Series",
     "language": "Tamil",
     "mood": "Feeling Low",
-    "description": "Village mystery thriller"
+    "description": "Village mystery thriller",
+    "image": "https://image.tmdb.org/t/p/original/hEFbJLsoFhEcf3OtFgptrllxBxI.jpg"
   },
   {
     "id": 125,
@@ -973,7 +1094,8 @@
     "category": "Web Series",
     "language": "Kannada",
     "mood": "Feeling Low",
-    "description": "Youth emotional drama"
+    "description": "Youth emotional drama",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 126,
@@ -981,7 +1103,8 @@
     "category": "Web Series",
     "language": "Malayalam",
     "mood": "Feeling Low",
-    "description": "Police investigation drama"
+    "description": "Police investigation drama",
+    "image": "https://image.tmdb.org/t/p/original/axzUkZk5CAWX2xqOB69WSHOoRUT.jpg"
   },
   {
     "id": 127,
@@ -989,7 +1112,8 @@
     "category": "Web Series",
     "language": "Marathi",
     "mood": "Feeling Low",
-    "description": "Crime mystery"
+    "description": "Crime mystery",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 128,
@@ -997,7 +1121,8 @@
     "category": "Web Series",
     "language": "Bengali",
     "mood": "Feeling Low",
-    "description": "Detective series with emotions"
+    "description": "Detective series with emotions",
+    "image": "https://image.tmdb.org/t/p/original/9qKjQcU4pkqZ0J5jTBTIftddS22.jpg"
   },
   {
     "id": 129,
@@ -1005,7 +1130,8 @@
     "category": "Web Series",
     "language": "English",
     "mood": "Need Motivation",
-    "description": "Rise of a sports legend"
+    "description": "Rise of a sports legend",
+    "image": "https://image.tmdb.org/t/p/original/kY0h95L73t7a6ev6Rv0aHSCtN7y.jpg"
   },
   {
     "id": 130,
@@ -1013,7 +1139,8 @@
     "category": "Web Series",
     "language": "Hindi",
     "mood": "Need Motivation",
-    "description": "UPSC aspirants journey"
+    "description": "UPSC aspirants journey",
+    "image": "https://image.tmdb.org/t/p/original/suXX4sFFgUGMv47jCibP4hhsmN7.jpg"
   },
   {
     "id": 131,
@@ -1021,7 +1148,8 @@
     "category": "Web Series",
     "language": "Telugu",
     "mood": "Need Motivation",
-    "description": "Underdog sports story"
+    "description": "Underdog sports story",
+    "image": "https://image.tmdb.org/t/p/original/M0CIWl08Bj2U271ahU61JkWztc.jpg"
   },
   {
     "id": 132,
@@ -1029,7 +1157,8 @@
     "category": "Web Series",
     "language": "Tamil",
     "mood": "Need Motivation",
-    "description": "Fight for justice"
+    "description": "Fight for justice",
+    "image": "https://image.tmdb.org/t/p/original/vRlWWaCZ5Bt0etqwkae4viuO3WP.jpg"
   },
   {
     "id": 133,
@@ -1037,7 +1166,8 @@
     "category": "Web Series",
     "language": "Kannada",
     "mood": "Need Motivation",
-    "description": "Political satire"
+    "description": "Political satire",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 134,
@@ -1045,7 +1175,8 @@
     "category": "Web Series",
     "language": "Malayalam",
     "mood": "Need Motivation",
-    "description": "Scientists success story"
+    "description": "Scientists success story",
+    "image": "https://image.tmdb.org/t/p/original/kOGM01ZhELmJCxdVObqQbRwXXH3.jpg"
   },
   {
     "id": 136,
@@ -1053,7 +1184,8 @@
     "category": "Web Series",
     "language": "Bengali",
     "mood": "Need Motivation",
-    "description": "Detective solving crimes"
+    "description": "Detective solving crimes",
+    "image": "https://image.tmdb.org/t/p/original/Aq2gYNSuQz6N7sMBXrZ9a9v8kTQ.jpg"
   },
   {
     "id": 137,
@@ -1061,7 +1193,8 @@
     "category": "Web Series",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Brilliant detective cases"
+    "description": "Brilliant detective cases",
+    "image": "https://image.tmdb.org/t/p/original/8rvLEmdI4gLrMO1rLqbNdnNcPFE.jpg"
   },
   {
     "id": 138,
@@ -1069,7 +1202,8 @@
     "category": "Web Series",
     "language": "Hindi",
     "mood": "Want Focus",
-    "description": "Crime and politics thriller"
+    "description": "Crime and politics thriller",
+    "image": "https://image.tmdb.org/t/p/original/qtac9X9lSLqZFbxS71347N8MiID.jpg"
   },
   {
     "id": 139,
@@ -1077,7 +1211,8 @@
     "category": "Web Series",
     "language": "Telugu",
     "mood": "Want Focus",
-    "description": "Action crime series"
+    "description": "Action crime series",
+    "image": "https://image.tmdb.org/t/p/original/cLQZv8KxWVrsSgm4sbuQSixPgH9.jpg"
   },
   {
     "id": 140,
@@ -1085,7 +1220,8 @@
     "category": "Web Series",
     "language": "Tamil",
     "mood": "Want Focus",
-    "description": "Crime investigation thriller"
+    "description": "Crime investigation thriller",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 141,
@@ -1093,7 +1229,8 @@
     "category": "Web Series",
     "language": "Kannada",
     "mood": "Want Focus",
-    "description": "Serious crime drama"
+    "description": "Serious crime drama",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 142,
@@ -1101,7 +1238,8 @@
     "category": "Web Series",
     "language": "Malayalam",
     "mood": "Want Focus",
-    "description": "Mind game thriller"
+    "description": "Mind game thriller",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 143,
@@ -1109,7 +1247,8 @@
     "category": "Web Series",
     "language": "Marathi",
     "mood": "Want Focus",
-    "description": "Suspense mystery"
+    "description": "Suspense mystery",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 144,
@@ -1117,7 +1256,8 @@
     "category": "Web Series",
     "language": "Bengali",
     "mood": "Want Focus",
-    "description": "Psychological thriller"
+    "description": "Psychological thriller",
+    "image": "https://image.tmdb.org/t/p/original/t5tYpUq2BPt34vdoR3kT8BhHxO1.jpg"
   },
   {
     "id": 145,
@@ -1125,7 +1265,8 @@
     "category": "Web Series",
     "language": "English",
     "mood": "Want Peace",
-    "description": "Hopeful coming-of-age story"
+    "description": "Hopeful coming-of-age story",
+    "image": "https://image.tmdb.org/t/p/original/ywQtHG17LZhAFZyZtBflhtFMtJ7.jpg"
   },
   {
     "id": 146,
@@ -1133,7 +1274,8 @@
     "category": "Web Series",
     "language": "Hindi",
     "mood": "Want Peace",
-    "description": "Warm family drama"
+    "description": "Warm family drama",
+    "image": "https://image.tmdb.org/t/p/original/iKIfIOPdD0pZsR2KbvTpv4kgsnT.jpg"
   },
   {
     "id": 147,
@@ -1141,7 +1283,8 @@
     "category": "Web Series",
     "language": "Telugu",
     "mood": "Want Peace",
-    "description": "Romantic anthology"
+    "description": "Romantic anthology",
+    "image": "https://image.tmdb.org/t/p/original/mI5vyLlRZwKPaYlQxb92rghIFKg.jpg"
   },
   {
     "id": 148,
@@ -1149,7 +1292,8 @@
     "category": "Web Series",
     "language": "Tamil",
     "mood": "Want Peace",
-    "description": "Love and relationships"
+    "description": "Love and relationships",
+    "image": "https://image.tmdb.org/t/p/original/t1DFDx2IQENe9bsT9mcd346BVY2.jpg"
   },
   {
     "id": 150,
@@ -1157,7 +1301,8 @@
     "category": "Web Series",
     "language": "Malayalam",
     "mood": "Want Peace",
-    "description": "Family and bonding"
+    "description": "Family and bonding",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 151,
@@ -1165,7 +1310,8 @@
     "category": "Web Series",
     "language": "Marathi",
     "mood": "Want Peace",
-    "description": "Music and love"
+    "description": "Music and love",
+    "image": "https://image.tmdb.org/t/p/original/3fTEB9x8bxAQ055ecodeqLbMoLJ.jpg"
   },
   {
     "id": 152,
@@ -1173,7 +1319,8 @@
     "category": "Web Series",
     "language": "Bengali",
     "mood": "Want Peace",
-    "description": "Spiritual journey"
+    "description": "Spiritual journey",
+    "image": "https://image.tmdb.org/t/p/original/kHeoD8cOu85EZOICxxXeNnc0YK6.jpg"
   },
   {
     "id": 153,
@@ -1181,7 +1328,8 @@
     "category": "Web Series",
     "language": "English",
     "mood": "Just for Fun",
-    "description": "Comedy about friendship"
+    "description": "Comedy about friendship",
+    "image": "https://image.tmdb.org/t/p/original/l0qVZIpXtIo7km9u5Yqh0nKPOr5.jpg"
   },
   {
     "id": 154,
@@ -1189,7 +1337,8 @@
     "category": "Web Series",
     "language": "Hindi",
     "mood": "Just for Fun",
-    "description": "Village comedy drama"
+    "description": "Village comedy drama",
+    "image": "https://image.tmdb.org/t/p/original/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg"
   },
   {
     "id": 155,
@@ -1197,7 +1346,8 @@
     "category": "Web Series",
     "language": "Telugu",
     "mood": "Just for Fun",
-    "description": "Comedy about married life"
+    "description": "Comedy about married life",
+    "image": "https://image.tmdb.org/t/p/original/cVLkAieF4FcnxBHpWEUUBB4XrEv.jpg"
   },
   {
     "id": 156,
@@ -1205,7 +1355,8 @@
     "category": "Web Series",
     "language": "Tamil",
     "mood": "Just for Fun",
-    "description": "Office comedy"
+    "description": "Office comedy",
+    "image": "https://image.tmdb.org/t/p/original/5eo7obBU8GCLKxz9ggOIxSPuGhn.jpg"
   },
   {
     "id": 158,
@@ -1213,7 +1364,8 @@
     "category": "Web Series",
     "language": "Malayalam",
     "mood": "Just for Fun",
-    "description": "Youth comedy sketches"
+    "description": "Youth comedy sketches",
+    "image": "https://image.tmdb.org/t/p/original/4nC1CtBZBX2fRyNdYrDf87xccuH.jpg"
   },
   {
     "id": 159,
@@ -1221,7 +1373,8 @@
     "category": "Web Series",
     "language": "Marathi",
     "mood": "Just for Fun",
-    "description": "Comedy crime"
+    "description": "Comedy crime",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 160,
@@ -1229,7 +1382,8 @@
     "category": "Web Series",
     "language": "Bengali",
     "mood": "Just for Fun",
-    "description": "Romantic comedy"
+    "description": "Romantic comedy",
+    "image": "https://image.tmdb.org/t/p/original/pvOI0jUuBVigqNTXClGGhIK2dSk.jpg"
   },
   {
     "id": 161,
@@ -1237,7 +1391,8 @@
     "category": "Anime",
     "language": "English",
     "mood": "Feeling Low",
-    "description": "Emotional story about music and loss"
+    "description": "Emotional story about music and loss",
+    "image": "https://image.tmdb.org/t/p/original/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg"
   },
   {
     "id": 162,
@@ -1245,7 +1400,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Feeling Low",
-    "description": "Heartbreaking friendship story"
+    "description": "Heartbreaking friendship story",
+    "image": "https://image.tmdb.org/t/p/original/YLyORLsYIjC0d1TFBSpJKk7piP.jpg"
   },
   {
     "id": 163,
@@ -1253,7 +1409,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Feeling Low",
-    "description": "Friends dealing with past tragedy"
+    "description": "Friends dealing with past tragedy",
+    "image": "https://image.tmdb.org/t/p/original/kyoFwkQH1l4QHfULW0CEdD2VPkE.jpg"
   },
   {
     "id": 164,
@@ -1261,7 +1418,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Feeling Low",
-    "description": "Love, family and hardships"
+    "description": "Love, family and hardships",
+    "image": "https://image.tmdb.org/t/p/original/vB7HwJNhlRA9tPViK32bK0hVCmb.jpg"
   },
   {
     "id": 165,
@@ -1269,7 +1427,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Feeling Low",
-    "description": "Healing emotional journey"
+    "description": "Healing emotional journey",
+    "image": "https://image.tmdb.org/t/p/original/2e2AEk7Jmn8CztM62hoUyEEWw0B.jpg"
   },
   {
     "id": 166,
@@ -1277,7 +1436,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Feeling Low",
-    "description": "War and sibling survival"
+    "description": "War and sibling survival",
+    "image": "https://image.tmdb.org/t/p/original/pgWLJI42GG98S1DqjTELLtB7VPB.jpg"
   },
   {
     "id": 167,
@@ -1285,7 +1445,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Feeling Low",
-    "description": "Friendship and regret"
+    "description": "Friendship and regret",
+    "image": "https://image.tmdb.org/t/p/original/n686vD71zZ6SoNZbdsorYv8XBoF.jpg"
   },
   {
     "id": 168,
@@ -1293,7 +1454,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Feeling Low",
-    "description": "Bullying and redemption"
+    "description": "Bullying and redemption",
+    "image": "https://image.tmdb.org/t/p/original/wRhUG6fVkJEs1JZOVV5UHc89zLW.jpg"
   },
   {
     "id": 169,
@@ -1301,7 +1463,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Need Motivation",
-    "description": "Never give up ninja journey"
+    "description": "Never give up ninja journey",
+    "image": "https://image.tmdb.org/t/p/original/xuJ0F9RfKvVSJNDg2usurQ9WvY5.jpg"
   },
   {
     "id": 170,
@@ -1309,7 +1472,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Need Motivation",
-    "description": "Becoming a hero"
+    "description": "Becoming a hero",
+    "image": "https://image.tmdb.org/t/p/original/baZ0pGbBGjCBhIqsFyOSTpJyUnQ.jpg"
   },
   {
     "id": 171,
@@ -1317,7 +1481,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Need Motivation",
-    "description": "Hard work beats talent"
+    "description": "Hard work beats talent",
+    "image": "https://image.tmdb.org/t/p/original/oUsm3pq6rUga7lVGQFS3g84etVE.jpg"
   },
   {
     "id": 172,
@@ -1325,7 +1490,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Need Motivation",
-    "description": "Volleyball dreams"
+    "description": "Volleyball dreams",
+    "image": "https://image.tmdb.org/t/p/original/zr1MDQCPVB5uJEHxiO6Tukn4OjH.jpg"
   },
   {
     "id": 173,
@@ -1333,7 +1499,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Need Motivation",
-    "description": "Hero finding purpose"
+    "description": "Hero finding purpose",
+    "image": "https://image.tmdb.org/t/p/original/s0w8JbuNNxL1YgaHeDWih12C3jG.jpg"
   },
   {
     "id": 174,
@@ -1341,7 +1508,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Need Motivation",
-    "description": "Football ambition"
+    "description": "Football ambition",
+    "image": "https://image.tmdb.org/t/p/original/seMRyWVwIVBWbC9xaMzDMZJ8fUH.jpg"
   },
   {
     "id": 175,
@@ -1349,7 +1517,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Need Motivation",
-    "description": "Power and training"
+    "description": "Power and training",
+    "image": "https://image.tmdb.org/t/p/original/ydf1CeiBLfdxiyNTpskM0802TKl.jpg"
   },
   {
     "id": 176,
@@ -1357,7 +1526,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Need Motivation",
-    "description": "Protect family and fight demons"
+    "description": "Protect family and fight demons",
+    "image": "https://image.tmdb.org/t/p/original/3GQKYh6Trm8pxd2AypovoYQf4Ay.jpg"
   },
   {
     "id": 177,
@@ -1365,7 +1535,8 @@
     "category": "Anime",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Mind games and strategy"
+    "description": "Mind games and strategy",
+    "image": "https://image.tmdb.org/t/p/original/mOlEbXcb6ufRJKogI35KqsSlCfB.jpg"
   },
   {
     "id": 179,
@@ -1373,7 +1544,8 @@
     "category": "Anime",
     "language": "Telugu",
     "mood": "Want Focus",
-    "description": "Dark psychological action"
+    "description": "Dark psychological action",
+    "image": "https://image.tmdb.org/t/p/original/yOarY3Yo0NMkuTuft87M5oAZa3C.jpg"
   },
   {
     "id": 180,
@@ -1381,7 +1553,8 @@
     "category": "Anime",
     "language": "Tamil",
     "mood": "Want Focus",
-    "description": "Crime and justice"
+    "description": "Crime and justice",
+    "image": "https://image.tmdb.org/t/p/original/2HtnTJLs3CDUTu6ug8rib5vNnU2.jpg"
   },
   {
     "id": 181,
@@ -1389,7 +1562,8 @@
     "category": "Anime",
     "language": "Kannada",
     "mood": "Want Focus",
-    "description": "War and strategy"
+    "description": "War and strategy",
+    "image": "https://image.tmdb.org/t/p/original/5hS2OIuZSKGkR8R5l3bY5zh04Ce.jpg"
   },
   {
     "id": 182,
@@ -1397,7 +1571,8 @@
     "category": "Anime",
     "language": "Malayalam",
     "mood": "Want Focus",
-    "description": "Time travel thriller"
+    "description": "Time travel thriller",
+    "image": "https://image.tmdb.org/t/p/original/gDvxT2z6TNxervG97WfpePRZ3aR.jpg"
   },
   {
     "id": 183,
@@ -1405,7 +1580,8 @@
     "category": "Anime",
     "language": "Marathi",
     "mood": "Want Focus",
-    "description": "Psychological suspense"
+    "description": "Psychological suspense",
+    "image": "https://image.tmdb.org/t/p/original/6T19aRp9zLMghZo1dTEwoNyreNZ.jpg"
   },
   {
     "id": 184,
@@ -1413,7 +1589,8 @@
     "category": "Anime",
     "language": "Bengali",
     "mood": "Want Focus",
-    "description": "Human survival"
+    "description": "Human survival",
+    "image": "https://image.tmdb.org/t/p/original/zfk6siC4KRXurG4jJzSXHy9szGQ.jpg"
   },
   {
     "id": 185,
@@ -1421,7 +1598,8 @@
     "category": "Anime",
     "language": "English",
     "mood": "Want Peace",
-    "description": "Magical peaceful journey"
+    "description": "Magical peaceful journey",
+    "image": "https://image.tmdb.org/t/p/original/4K871Sxq5KMVDZMBrsYvzUjubQp.jpg"
   },
   {
     "id": 186,
@@ -1429,7 +1607,8 @@
     "category": "Anime",
     "language": "Hindi",
     "mood": "Want Peace",
-    "description": "Cute fantasy story"
+    "description": "Cute fantasy story",
+    "image": "https://image.tmdb.org/t/p/original/6O1mOoTXuc1WqjKd2R7MFQHZ7Eb.jpg"
   },
   {
     "id": 187,
@@ -1437,7 +1616,8 @@
     "category": "Anime",
     "language": "Telugu",
     "mood": "Want Peace",
-    "description": "Love and nature"
+    "description": "Love and nature",
+    "image": "https://image.tmdb.org/t/p/original/ize3ZieqSy0TCWljmVoEiy8fSFS.jpg"
   },
   {
     "id": 188,
@@ -1445,7 +1625,8 @@
     "category": "Anime",
     "language": "Tamil",
     "mood": "Want Peace",
-    "description": "Dreams and creativity"
+    "description": "Dreams and creativity",
+    "image": "https://image.tmdb.org/t/p/original/rphor0XQcYO4CQoQ6auaQm3UPap.jpg"
   },
   {
     "id": 189,
@@ -1453,7 +1634,8 @@
     "category": "Anime",
     "language": "Kannada",
     "mood": "Want Peace",
-    "description": "Calm romance"
+    "description": "Calm romance",
+    "image": "https://image.tmdb.org/t/p/original/8iB9CMlwRJRWDwM9P9ZtD8Erry.jpg"
   },
   {
     "id": 190,
@@ -1461,7 +1643,8 @@
     "category": "Anime",
     "language": "Malayalam",
     "mood": "Want Peace",
-    "description": "Village life and healing"
+    "description": "Village life and healing",
+    "image": "https://image.tmdb.org/t/p/original/8rijZmmFgcQc0JIhvc5t0WTIPZ6.jpg"
   },
   {
     "id": 191,
@@ -1469,7 +1652,8 @@
     "category": "Anime",
     "language": "Marathi",
     "mood": "Want Peace",
-    "description": "Spirits and friendship"
+    "description": "Spirits and friendship",
+    "image": "https://image.tmdb.org/t/p/original/xHjRfQIRlxug491JrKiEYl9vHM1.jpg"
   },
   {
     "id": 193,
@@ -1477,7 +1661,8 @@
     "category": "Anime",
     "language": "English",
     "mood": "Just for Fun",
-    "description": "Adventure with cute monsters"
+    "description": "Adventure with cute monsters",
+    "image": "https://image.tmdb.org/t/p/original/yYpQV25I7XB6S0POJOScPjxYWV5.jpg"
   },
   {
     "id": 194,
@@ -1485,7 +1670,8 @@
     "category": "Anime",
     "language": "Hindi",
     "mood": "Just for Fun",
-    "description": "Robot cat adventures"
+    "description": "Robot cat adventures",
+    "image": "https://image.tmdb.org/t/p/original/c2oiRa7V3bQzof4wVGzLXtWJ5QU.jpg"
   },
   {
     "id": 195,
@@ -1493,7 +1679,8 @@
     "category": "Anime",
     "language": "Telugu",
     "mood": "Just for Fun",
-    "description": "Funny kid antics"
+    "description": "Funny kid antics",
+    "image": "https://image.tmdb.org/t/p/original/db8beCPfDT67NvUFKtY3k5NVhnu.jpg"
   },
   {
     "id": 197,
@@ -1501,7 +1688,8 @@
     "category": "Anime",
     "language": "Kannada",
     "mood": "Just for Fun",
-    "description": "Magic guild fun"
+    "description": "Magic guild fun",
+    "image": "https://image.tmdb.org/t/p/original/lT8CUfNOkBQW9oPda2T5UPzVquM.jpg"
   },
   {
     "id": 198,
@@ -1509,7 +1697,8 @@
     "category": "Anime",
     "language": "Malayalam",
     "mood": "Just for Fun",
-    "description": "Comedy action"
+    "description": "Comedy action",
+    "image": "https://image.tmdb.org/t/p/original/3gVl0IvJMbhOnAvH9V0Q1Y1HnXE.jpg"
   },
   {
     "id": 199,
@@ -1517,7 +1706,8 @@
     "category": "Anime",
     "language": "Marathi",
     "mood": "Just for Fun",
-    "description": "Comedy fantasy"
+    "description": "Comedy fantasy",
+    "image": "https://image.tmdb.org/t/p/original/rvZJxD36tKoglL8fXoMMWKGQfM.jpg"
   },
   {
     "id": 200,
@@ -1525,7 +1715,8 @@
     "category": "Anime",
     "language": "Bengali",
     "mood": "Just for Fun",
-    "description": "Family comedy action"
+    "description": "Family comedy action",
+    "image": "https://image.tmdb.org/t/p/original/lysUnU6V0VfcthDbviuVlIqgHOR.jpg"
   },
   {
     "id": 201,
@@ -1533,7 +1724,8 @@
     "category": "Podcasts",
     "language": "English",
     "mood": "Feeling Low",
-    "description": "Deep conversations on life and emotions"
+    "description": "Deep conversations on life and emotions",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 202,
@@ -1541,7 +1733,8 @@
     "category": "Podcasts",
     "language": "Hindi",
     "mood": "Feeling Low",
-    "description": "Mental health and emotional support"
+    "description": "Mental health and emotional support",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 203,
@@ -1549,7 +1742,8 @@
     "category": "Podcasts",
     "language": "Telugu",
     "mood": "Feeling Low",
-    "description": "Talks about stress and healing"
+    "description": "Talks about stress and healing",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 204,
@@ -1557,7 +1751,8 @@
     "category": "Podcasts",
     "language": "Tamil",
     "mood": "Feeling Low",
-    "description": "Emotional well-being discussions"
+    "description": "Emotional well-being discussions",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 205,
@@ -1565,7 +1760,8 @@
     "category": "Podcasts",
     "language": "Kannada",
     "mood": "Feeling Low",
-    "description": "Stories of overcoming sadness"
+    "description": "Stories of overcoming sadness",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 206,
@@ -1573,7 +1769,8 @@
     "category": "Podcasts",
     "language": "Malayalam",
     "mood": "Feeling Low",
-    "description": "Healing conversations"
+    "description": "Healing conversations",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 207,
@@ -1581,7 +1778,8 @@
     "category": "Podcasts",
     "language": "Marathi",
     "mood": "Feeling Low",
-    "description": "Mental wellness stories"
+    "description": "Mental wellness stories",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 208,
@@ -1589,7 +1787,8 @@
     "category": "Podcasts",
     "language": "Bengali",
     "mood": "Feeling Low",
-    "description": "Heart touching talks"
+    "description": "Heart touching talks",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 209,
@@ -1597,7 +1796,8 @@
     "category": "Podcasts",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Concentration and productivity"
+    "description": "Concentration and productivity",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 210,
@@ -1605,7 +1805,8 @@
     "category": "Podcasts",
     "language": "Hindi",
     "mood": "Want Focus",
-    "description": "Growth and discipline"
+    "description": "Growth and discipline",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 211,
@@ -1613,7 +1814,8 @@
     "category": "Podcasts",
     "language": "Telugu",
     "mood": "Want Focus",
-    "description": "Work and study focus"
+    "description": "Work and study focus",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 212,
@@ -1621,7 +1823,8 @@
     "category": "Podcasts",
     "language": "Tamil",
     "mood": "Want Focus",
-    "description": "Career growth"
+    "description": "Career growth",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 213,
@@ -1629,7 +1832,8 @@
     "category": "Podcasts",
     "language": "Kannada",
     "mood": "Want Focus",
-    "description": "Learning podcast"
+    "description": "Learning podcast",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 214,
@@ -1637,7 +1841,8 @@
     "category": "Podcasts",
     "language": "Malayalam",
     "mood": "Want Focus",
-    "description": "Exam preparation tips"
+    "description": "Exam preparation tips",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 215,
@@ -1645,7 +1850,8 @@
     "category": "Podcasts",
     "language": "Marathi",
     "mood": "Want Focus",
-    "description": "Career guidance"
+    "description": "Career guidance",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 216,
@@ -1653,7 +1859,8 @@
     "category": "Podcasts",
     "language": "Bengali",
     "mood": "Want Focus",
-    "description": "Focus and learning"
+    "description": "Focus and learning",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 217,
@@ -1661,7 +1868,8 @@
     "category": "Podcasts",
     "language": "English",
     "mood": "Want Peace",
-    "description": "Guided meditation"
+    "description": "Guided meditation",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 218,
@@ -1669,7 +1877,8 @@
     "category": "Podcasts",
     "language": "Hindi",
     "mood": "Want Peace",
-    "description": "Spiritual talks"
+    "description": "Spiritual talks",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 219,
@@ -1677,7 +1886,8 @@
     "category": "Podcasts",
     "language": "Telugu",
     "mood": "Want Peace",
-    "description": "Devotional talks"
+    "description": "Devotional talks",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 220,
@@ -1685,7 +1895,8 @@
     "category": "Podcasts",
     "language": "Tamil",
     "mood": "Want Peace",
-    "description": "Calm mind sessions"
+    "description": "Calm mind sessions",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 221,
@@ -1693,7 +1904,8 @@
     "category": "Podcasts",
     "language": "Kannada",
     "mood": "Want Peace",
-    "description": "Peaceful discourses"
+    "description": "Peaceful discourses",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 222,
@@ -1701,7 +1913,8 @@
     "category": "Podcasts",
     "language": "Malayalam",
     "mood": "Want Peace",
-    "description": "Devotional peace talks"
+    "description": "Devotional peace talks",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 223,
@@ -1709,7 +1922,8 @@
     "category": "Podcasts",
     "language": "Marathi",
     "mood": "Want Peace",
-    "description": "Spiritual songs and talks"
+    "description": "Spiritual songs and talks",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 224,
@@ -1717,7 +1931,8 @@
     "category": "Podcasts",
     "language": "Bengali",
     "mood": "Want Peace",
-    "description": "Devotional stories"
+    "description": "Devotional stories",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 225,
@@ -1725,7 +1940,8 @@
     "category": "Podcasts",
     "language": "English",
     "mood": "Just for Fun",
-    "description": "Funny facts"
+    "description": "Funny facts",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 226,
@@ -1733,7 +1949,8 @@
     "category": "Podcasts",
     "language": "Hindi",
     "mood": "Just for Fun",
-    "description": "Fun storytelling"
+    "description": "Fun storytelling",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 227,
@@ -1741,7 +1958,8 @@
     "category": "Podcasts",
     "language": "Telugu",
     "mood": "Just for Fun",
-    "description": "Comedy chats"
+    "description": "Comedy chats",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 228,
@@ -1749,7 +1967,8 @@
     "category": "Podcasts",
     "language": "Tamil",
     "mood": "Just for Fun",
-    "description": "Light-hearted conversations"
+    "description": "Light-hearted conversations",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 229,
@@ -1757,7 +1976,8 @@
     "category": "Podcasts",
     "language": "Kannada",
     "mood": "Just for Fun",
-    "description": "Standup style talks"
+    "description": "Standup style talks",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 230,
@@ -1765,7 +1985,8 @@
     "category": "Podcasts",
     "language": "Malayalam",
     "mood": "Just for Fun",
-    "description": "Funny discussions"
+    "description": "Funny discussions",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 231,
@@ -1773,7 +1994,8 @@
     "category": "Podcasts",
     "language": "Marathi",
     "mood": "Just for Fun",
-    "description": "Entertainment podcast"
+    "description": "Entertainment podcast",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 232,
@@ -1781,7 +2003,8 @@
     "category": "Podcasts",
     "language": "Bengali",
     "mood": "Just for Fun",
-    "description": "Casual fun talks"
+    "description": "Casual fun talks",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 233,
@@ -1789,7 +2012,8 @@
     "category": "Documentaries",
     "language": "English",
     "mood": "Feeling Low",
-    "description": "Mind body healing and hope"
+    "description": "Mind body healing and hope",
+    "image": "https://image.tmdb.org/t/p/original/ejtwcgHJ51CBAFb21MnfoRRRTwD.jpg"
   },
   {
     "id": 234,
@@ -1797,7 +2021,8 @@
     "category": "Documentaries",
     "language": "Hindi",
     "mood": "Feeling Low",
-    "description": "Life struggles and survival"
+    "description": "Life struggles and survival",
+    "image": "https://image.tmdb.org/t/p/original/34znVt7ju1vMx2O2YLytbjj0uB6.jpg"
   },
   {
     "id": 235,
@@ -1805,7 +2030,8 @@
     "category": "Documentaries",
     "language": "Telugu",
     "mood": "Feeling Low",
-    "description": "Real emotional journeys"
+    "description": "Real emotional journeys",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 236,
@@ -1813,7 +2039,8 @@
     "category": "Documentaries",
     "language": "Tamil",
     "mood": "Feeling Low",
-    "description": "Stories of resilience"
+    "description": "Stories of resilience",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 237,
@@ -1821,7 +2048,8 @@
     "category": "Documentaries",
     "language": "Kannada",
     "mood": "Feeling Low",
-    "description": "People overcoming hardships"
+    "description": "People overcoming hardships",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 238,
@@ -1829,7 +2057,8 @@
     "category": "Documentaries",
     "language": "Malayalam",
     "mood": "Feeling Low",
-    "description": "Real life emotions"
+    "description": "Real life emotions",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 239,
@@ -1837,7 +2066,8 @@
     "category": "Documentaries",
     "language": "Marathi",
     "mood": "Feeling Low",
-    "description": "Common people stories"
+    "description": "Common people stories",
+    "image": "https://image.tmdb.org/t/p/original/bc2sfYTlpzH3By4Z2VlLVVGOzf6.jpg"
   },
   {
     "id": 240,
@@ -1845,7 +2075,8 @@
     "category": "Documentaries",
     "language": "Bengali",
     "mood": "Feeling Low",
-    "description": "Life and survival tales"
+    "description": "Life and survival tales",
+    "image": "https://image.tmdb.org/t/p/original/qniFX085LBLrsiRpU50BzjBIk2l.jpg"
   },
   {
     "id": 241,
@@ -1853,16 +2084,17 @@
     "category": "Documentaries",
     "language": "English",
     "mood": "Need Motivation",
-    "description": "Rise of a sports legend"
+    "description": "Rise of a sports legend",
+    "image": "https://image.tmdb.org/t/p/original/4bkpwRlYmWt4m4z1vZRkT9Y1wxD.jpg"
   },
   {
     "id": 242,
     "title": "MS Dhoni: Untold Story",
     "category": "Documentaries",
-
     "language": "Hindi",
     "mood": "Need Motivation",
-    "description": "Journey of a champion"
+    "description": "Journey of a champion",
+    "image": "https://image.tmdb.org/t/p/original/oQCrHuAqqQCJ5H2gvAbsXd0T4Sw.jpg"
   },
   {
     "id": 243,
@@ -1870,7 +2102,8 @@
     "category": "Documentaries",
     "language": "Telugu",
     "mood": "Need Motivation",
-    "description": "Entrepreneur journeys"
+    "description": "Entrepreneur journeys",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 244,
@@ -1878,7 +2111,8 @@
     "category": "Documentaries",
     "language": "Tamil",
     "mood": "Need Motivation",
-    "description": "Dream to success"
+    "description": "Dream to success",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 245,
@@ -1886,7 +2120,8 @@
     "category": "Documentaries",
     "language": "Kannada",
     "mood": "Need Motivation",
-    "description": "Success stories"
+    "description": "Success stories",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 246,
@@ -1894,7 +2129,8 @@
     "category": "Documentaries",
     "language": "Malayalam",
     "mood": "Need Motivation",
-    "description": "Inspiring people"
+    "description": "Inspiring people",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 247,
@@ -1902,7 +2138,8 @@
     "category": "Documentaries",
     "language": "Marathi",
     "mood": "Need Motivation",
-    "description": "Leadership stories"
+    "description": "Leadership stories",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 248,
@@ -1910,7 +2147,8 @@
     "category": "Documentaries",
     "language": "Bengali",
     "mood": "Need Motivation",
-    "description": "Icons and achievers"
+    "description": "Icons and achievers",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 249,
@@ -1918,7 +2156,8 @@
     "category": "Documentaries",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Life of Bill Gates"
+    "description": "Life of Bill Gates",
+    "image": "https://image.tmdb.org/t/p/original/e8Rla3XzYcY6A1fIYn6kbrIU674.jpg"
   },
   {
     "id": 250,
@@ -1926,7 +2165,8 @@
     "category": "Documentaries",
     "language": "Hindi",
     "mood": "Want Focus",
-    "description": "Corporate scandals"
+    "description": "Corporate scandals",
+    "image": "https://image.tmdb.org/t/p/original/kPVMCvZWmOWumIfZHdIU0Hl3GHc.jpg"
   },
   {
     "id": 251,
@@ -1934,7 +2174,8 @@
     "category": "Documentaries",
     "language": "Telugu",
     "mood": "Want Focus",
-    "description": "Technology leaders"
+    "description": "Technology leaders",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 252,
@@ -1942,7 +2183,8 @@
     "category": "Documentaries",
     "language": "Tamil",
     "mood": "Want Focus",
-    "description": "Space missions"
+    "description": "Space missions",
+    "image": "https://image.tmdb.org/t/p/original/2kNN8db5O1cNYMnmQ9WFOevKHsv.jpg"
   },
   {
     "id": 253,
@@ -1950,7 +2192,8 @@
     "category": "Documentaries",
     "language": "Kannada",
     "mood": "Want Focus",
-    "description": "Science and research"
+    "description": "Science and research",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 254,
@@ -1958,7 +2201,8 @@
     "category": "Documentaries",
     "language": "Malayalam",
     "mood": "Want Focus",
-    "description": "Great minds"
+    "description": "Great minds",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 255,
@@ -1966,7 +2210,8 @@
     "category": "Documentaries",
     "language": "Marathi",
     "mood": "Want Focus",
-    "description": "Development stories"
+    "description": "Development stories",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 256,
@@ -1974,7 +2219,8 @@
     "category": "Documentaries",
     "language": "Bengali",
     "mood": "Want Focus",
-    "description": "Creators and builders"
+    "description": "Creators and builders",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 257,
@@ -1982,7 +2228,8 @@
     "category": "Documentaries",
     "language": "English",
     "mood": "Want Peace",
-    "description": "Nature and wildlife"
+    "description": "Nature and wildlife",
+    "image": "https://image.tmdb.org/t/p/original/mfdoMIFWnVkzaLqVDWU2DH6EIwT.jpg"
   },
   {
     "id": 258,
@@ -1990,7 +2237,8 @@
     "category": "Documentaries",
     "language": "Hindi",
     "mood": "Want Peace",
-    "description": "Indian rivers and culture"
+    "description": "Indian rivers and culture",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 259,
@@ -1998,7 +2246,8 @@
     "category": "Documentaries",
     "language": "Telugu",
     "mood": "Want Peace",
-    "description": "Spiritual places"
+    "description": "Spiritual places",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 260,
@@ -2006,7 +2255,8 @@
     "category": "Documentaries",
     "language": "Tamil",
     "mood": "Want Peace",
-    "description": "Culture and traditions"
+    "description": "Culture and traditions",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 261,
@@ -2014,7 +2264,8 @@
     "category": "Documentaries",
     "language": "Kannada",
     "mood": "Want Peace",
-    "description": "Forests and wildlife"
+    "description": "Forests and wildlife",
+    "image": "https://image.tmdb.org/t/p/original/zYcQhtQigEZ6IZPx7viG1cbeD7d.jpg"
   },
   {
     "id": 262,
@@ -2022,7 +2273,8 @@
     "category": "Documentaries",
     "language": "Malayalam",
     "mood": "Want Peace",
-    "description": "Kerala nature beauty"
+    "description": "Kerala nature beauty",
+    "image": "https://image.tmdb.org/t/p/original/qhNc8goJdGVRsrS9VoexTNi3Zxd.jpg"
   },
   {
     "id": 263,
@@ -2030,7 +2282,8 @@
     "category": "Documentaries",
     "language": "Marathi",
     "mood": "Want Peace",
-    "description": "Mountain life"
+    "description": "Mountain life",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 264,
@@ -2038,7 +2291,8 @@
     "category": "Documentaries",
     "language": "Bengali",
     "mood": "Want Peace",
-    "description": "Simple living"
+    "description": "Simple living",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 265,
@@ -2046,7 +2300,8 @@
     "category": "Documentaries",
     "language": "English",
     "mood": "Just for Fun",
-    "description": "Food around the world"
+    "description": "Food around the world",
+    "image": "https://image.tmdb.org/t/p/original/gVYRyop8uW6AH9gLbui1qJEsDuq.jpg"
   },
   {
     "id": 266,
@@ -2054,7 +2309,8 @@
     "category": "Documentaries",
     "language": "Hindi",
     "mood": "Just for Fun",
-    "description": "Indian street food"
+    "description": "Indian street food",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 267,
@@ -2062,7 +2318,8 @@
     "category": "Documentaries",
     "language": "Telugu",
     "mood": "Just for Fun",
-    "description": "Tasty travels"
+    "description": "Tasty travels",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 268,
@@ -2070,7 +2327,8 @@
     "category": "Documentaries",
     "language": "Tamil",
     "mood": "Just for Fun",
-    "description": "Food fun"
+    "description": "Food fun",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 269,
@@ -2078,7 +2336,8 @@
     "category": "Documentaries",
     "language": "Kannada",
     "mood": "Just for Fun",
-    "description": "Travel entertainment"
+    "description": "Travel entertainment",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 270,
@@ -2086,7 +2345,8 @@
     "category": "Documentaries",
     "language": "Malayalam",
     "mood": "Just for Fun",
-    "description": "Fun journeys"
+    "description": "Fun journeys",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 271,
@@ -2094,7 +2354,8 @@
     "category": "Documentaries",
     "language": "Marathi",
     "mood": "Just for Fun",
-    "description": "Travel fun"
+    "description": "Travel fun",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 272,
@@ -2102,7 +2363,8 @@
     "category": "Documentaries",
     "language": "Bengali",
     "mood": "Just for Fun",
-    "description": "Light travel stories"
+    "description": "Light travel stories",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 273,
@@ -2110,7 +2372,8 @@
     "category": "Movies",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Sci-fi movie about space, time and survival"
+    "description": "Sci-fi movie about space, time and survival",
+    "image": "https://image.tmdb.org/t/p/original/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg"
   },
   {
     "id": 274,
@@ -2118,7 +2381,8 @@
     "category": "Movies",
     "language": "Hindi",
     "mood": "Just for Fun",
-    "description": "College life, friendship and dreams"
+    "description": "College life, friendship and dreams",
+    "image": "https://image.tmdb.org/t/p/original/8gT3UKtglLVpu0YfccwbmXZ5Eis.jpg"
   },
   {
     "id": 275,
@@ -2126,7 +2390,8 @@
     "category": "Movies",
     "language": "Telugu",
     "mood": "Need Motivation",
-    "description": "Epic story of courage and destiny"
+    "description": "Epic story of courage and destiny",
+    "image": "https://image.tmdb.org/t/p/original/G5dEpF27ooDgua6nnXjGEstiR7.jpg"
   },
   {
     "id": 276,
@@ -2134,7 +2399,8 @@
     "category": "Movies",
     "language": "Kannada",
     "mood": "Need Motivation",
-    "description": "Tradition, power and self discovery"
+    "description": "Tradition, power and self discovery",
+    "image": "https://image.tmdb.org/t/p/original/w57nxiBIODAYHLRs1xmrCY9zEFe.jpg"
   },
   {
     "id": 279,
@@ -2142,7 +2408,8 @@
     "category": "Music",
     "language": "Tamil",
     "mood": "Just for Fun",
-    "description": "Fun heartbreak song with catchy tune"
+    "description": "Fun heartbreak song with catchy tune",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 280,
@@ -2150,7 +2417,8 @@
     "category": "Music",
     "language": "Kannada",
     "mood": "Want Peace",
-    "description": "Melodious and soothing love song"
+    "description": "Melodious and soothing love song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 281,
@@ -2158,7 +2426,8 @@
     "category": "Music",
     "language": "Marathi",
     "mood": "Feeling Low",
-    "description": "Emotional love song"
+    "description": "Emotional love song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 282,
@@ -2166,7 +2435,8 @@
     "category": "Music",
     "language": "Bengali",
     "mood": "Want Peace",
-    "description": "Calm and soulful romantic song"
+    "description": "Calm and soulful romantic song",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 284,
@@ -2174,7 +2444,8 @@
     "category": "Books",
     "language": "Tamil",
     "mood": "Want Focus",
-    "description": "Historical epic novel"
+    "description": "Historical epic novel",
+    "image": "http://books.google.com/books/content?id=wD0jEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": 285,
@@ -2182,7 +2453,8 @@
     "category": "Podcasts",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Long form discussions on life, science and success"
+    "description": "Long form discussions on life, science and success",
+    "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
   },
   {
     "id": 286,
@@ -2190,7 +2462,8 @@
     "category": "Podcasts",
     "language": "Hindi",
     "mood": "Need Motivation",
-    "description": "Self improvement and entrepreneurship"
+    "description": "Self improvement and entrepreneurship",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 287,
@@ -2198,7 +2471,8 @@
     "category": "Podcasts",
     "language": "Telugu",
     "mood": "Need Motivation",
-    "description": "Success stories and life lessons"
+    "description": "Success stories and life lessons",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 288,
@@ -2206,7 +2480,8 @@
     "category": "Podcasts",
     "language": "Tamil",
     "mood": "Want Focus",
-    "description": "Business and startup talks"
+    "description": "Business and startup talks",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 289,
@@ -2214,7 +2489,8 @@
     "category": "Podcasts",
     "language": "Kannada",
     "mood": "Want Peace",
-    "description": "Mindfulness and calm talks"
+    "description": "Mindfulness and calm talks",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 290,
@@ -2222,7 +2498,8 @@
     "category": "Podcasts",
     "language": "Malayalam",
     "mood": "Need Motivation",
-    "description": "Inspirational life journeys"
+    "description": "Inspirational life journeys",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 291,
@@ -2230,7 +2507,8 @@
     "category": "Podcasts",
     "language": "Marathi",
     "mood": "Want Focus",
-    "description": "Personal growth discussions"
+    "description": "Personal growth discussions",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 292,
@@ -2238,7 +2516,8 @@
     "category": "Podcasts",
     "language": "Bengali",
     "mood": "Want Peace",
-    "description": "Stories and reflections"
+    "description": "Stories and reflections",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77ac6d5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     "id": 293,
@@ -2246,7 +2525,8 @@
     "category": "Web Series",
     "language": "English",
     "mood": "Just for Fun",
-    "description": "Sci-fi adventure series"
+    "description": "Sci-fi adventure series",
+    "image": "https://image.tmdb.org/t/p/original/8zbAoryWbtH0DKdev8abFAjdufy.jpg"
   },
   {
     "id": 294,
@@ -2254,7 +2534,8 @@
     "category": "Web Series",
     "language": "Hindi",
     "mood": "Just for Fun",
-    "description": "Crime drama series"
+    "description": "Crime drama series",
+    "image": "https://image.tmdb.org/t/p/original/3dV7pWAdwIPKR2lMIACMfObXdgK.jpg"
   },
   {
     "id": 296,
@@ -2262,7 +2543,8 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Want Focus",
-    "description": "Humanity vs titans"
+    "description": "Humanity vs titans",
+    "image": "https://image.tmdb.org/t/p/original/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg"
   },
   {
     "id": 297,
@@ -2270,16 +2552,17 @@
     "category": "Anime",
     "language": "Japanese",
     "mood": "Just for Fun",
-    "description": "Cursed spirit battles"
+    "description": "Cursed spirit battles",
+    "image": "https://image.tmdb.org/t/p/original/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg"
   },
-  
   {
     "id": 299,
     "title": "The Social Dilemma",
     "category": "Documentaries",
     "language": "English",
     "mood": "Want Focus",
-    "description": "Impact of social media"
+    "description": "Impact of social media",
+    "image": "https://image.tmdb.org/t/p/original/iYqoT9VBGdGTuLl3cjfbG7ZXDkP.jpg"
   },
   {
     "id": 300,
@@ -2287,7 +2570,8 @@
     "category": "Documentaries",
     "language": "Hindi",
     "mood": "Feeling Low",
-    "description": "Social realities of India"
+    "description": "Social realities of India",
+    "image": "https://image.tmdb.org/t/p/original/e1AFJKRWsWyu9v89td7lpFhw0Be.jpg"
   },
   {
     "id": 301,
@@ -2295,7 +2579,8 @@
     "category": "Documentaries",
     "language": "English",
     "mood": "Want Peace",
-    "description": "Evolution of life"
+    "description": "Evolution of life",
+    "image": "https://image.tmdb.org/t/p/original/qrKlmUZF4RJxKPqzqwLvtWEbr74.jpg"
   },
   {
     "id": 302,
@@ -2303,6 +2588,16 @@
     "category": "Documentaries",
     "language": "English",
     "mood": "Just for Fun",
-    "description": "Street food cultures"
+    "description": "Street food cultures",
+    "image": "https://image.tmdb.org/t/p/original/fzDwJWwdgn7LcLz9WO0n6No5Abx.jpg"
+  },
+  {
+    "id": 303,
+    "title": "Janatha Garage",
+    "category": "Movies",
+    "language": "Telugu",
+    "mood": "Need Motivation",
+    "description": "An environmental activist (NTR) tries to fix a broken system with the help of a garage owner.",
+    "image": "https://image.tmdb.org/t/p/original/vQISDnlCDr5PwG7PO53jYPcJImE.jpg"
   }
 ]

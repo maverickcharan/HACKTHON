@@ -1,7 +1,12 @@
 import { Chroma } from "@langchain/community/vectorstores/chroma";
 import { OllamaEmbeddings } from "@langchain/ollama";
+import path from "path";
+import { fileURLToPath } from "url";
 
-export async function searchVectorDB(query) {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+export async function searchVectorDB(query, filter = undefined) {
 
   const embeddings = new OllamaEmbeddings({
     model: "nomic-embed-text"
@@ -11,12 +16,12 @@ export async function searchVectorDB(query) {
     embeddings,
     {
       collectionName: "content-db-v2",
-      persistDirectory: "./chroma"
+      persistDirectory: path.resolve(__dirname, "chroma")
     }
   );
 
-
-  const results = await db.similaritySearch(query, 10);
+  // Pass filter if provided
+  const results = await db.similaritySearch(query, 20, filter);
 
   return results;
 }
