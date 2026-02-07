@@ -205,7 +205,7 @@ export default function Home() {
                                 <iframe
                                     width="100%"
                                     height="100%"
-                                    src={`https://www.youtube.com/embed/5QOY6OIpbMQ${videoPlayed ? '?autoplay=1&rel=0&modestbranding=1&controls=1' : '?rel=0&modestbranding=1&controls=1'}`}
+                                    src={`https://www.youtube.com/embed/-t2CclQofGk${videoPlayed ? '?autoplay=1&rel=0&modestbranding=1&controls=1' : '?rel=0&modestbranding=1&controls=1'}`}
                                     title="How MoodMitra Works"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -143,24 +143,33 @@ router.post("/recommend", async (req, res) => {
       // 1. Category (Strict)
       const dbCat = (item.category || "").toLowerCase();
       const userCat = categoryInput.toLowerCase();
-      if (dbCat !== userCat) return false;
+      if (dbCat !== userCat) {
+        // console.log(`REJECT: ${item.title} - Category Mismatch (${dbCat} vs ${userCat})`);
+        return false;
+      }
 
       // 2. Language (Strict)
       const dbLang = (item.language || "").toLowerCase();
       const userLang = (languageInput || "").toLowerCase();
-      if (userLang && dbLang !== userLang) return false;
+      if (userLang && dbLang !== userLang) {
+        console.log(`REJECT: ${item.title} - Language Mismatch (${dbLang} vs ${userLang})`);
+        return false;
+      }
 
       // 3. Mood (Strict - normalized check)
       const dbMood = (item.mood || "").toLowerCase();
       const normalizedMoodInput = moodInput.toLowerCase();
 
-      // Strict equality or inclusion (e.g. "Feeling Low" matches "Feeling Low")
       const matchMood = dbMood === normalizedMoodInput ||
         dbMood.includes(normalizedMoodInput) ||
         normalizedMoodInput.includes(dbMood);
 
-      if (!matchMood) return false;
+      if (!matchMood) {
+        console.log(`REJECT: ${item.title} - Mood Mismatch (${dbMood} vs ${normalizedMoodInput})`);
+        return false;
+      }
 
+      console.log(`ACCEPT: ${item.title} (${dbLang})`);
       return true;
     });
 
